@@ -39,7 +39,7 @@ Words live in `data/pack-*.json`, listed in `data/index.json`. The service worke
 
 - **Queue:** `tools/queue.txt` holds words waiting to be released, in the same pipe-separated format as the pack sources.
 - **Release:** every other Monday (even ISO weeks), the GitHub Action in `.github/workflows/top-up.yml` runs `tools/release.py`. It takes the next 20 words, builds `data/pack-NNN.json`, lists it in `data/index.json`, commits and rebuilds the site. Run it by hand from the Actions tab: `check` validates the queue; `release` releases 20 now.
-- **Refill:** on the 1st of each month a Claude task on the Mac tops the queue back up to 60, leaning towards the level you're studying, then runs `python3 tools/release.py --check` and pushes.
+- **Refill:** on the 1st of each month a Claude task on the Mac tops the queue back up to 60, balanced across levels and topics, then runs `python3 tools/release.py --check` and pushes.
 - **Just added:** words from packs released in the last 14 days appear on the Today screen, with a button to learn them.
 
 To add words by hand, append lines to `tools/queue.txt`, check them, and release:
