@@ -8,7 +8,8 @@ import re
 import sys
 
 LEVELS = {"b": "basic", "i": "intermediate", "a": "advanced"}
-TAGS = {"gen": "general", "exam": "exam", "exec": "exec", "tech": "tech"}
+TAGS = {"gen": "general", "exam": "exam", "exec": "exec", "tech": "tech",
+        "politics": "politics", "econ": "econ", "markets": "markets"}
 FIELDS = ["word", "pos", "ipa", "level", "tag", "meaning", "everyday", "work",
           "synonyms", "antonyms", "gap", "answer", "plain", "model"]
 

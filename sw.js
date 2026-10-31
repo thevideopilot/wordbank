@@ -1,6 +1,6 @@
 // Offline support. Bump VERSION whenever app files change so phones pick up the update.
 // Word packs are read from data/index.json, so adding a pack needs no change here.
-const VERSION = 'wordbank-s3-2';
+const VERSION = 'wordbank-s4-1';
 const SHELL = [
   './',
   'index.html',

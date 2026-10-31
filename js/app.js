@@ -702,6 +702,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
 (async function boot() {
   try {
     words = await loadWords();
+    // Drop topic filters that no longer exist (the General topic was retired).
+    const known = store.settings().tags.filter((t) => TAGS.some(([id]) => id === t));
+    if (known.length !== store.settings().tags.length) store.setSetting('tags', known);
     byId = Object.fromEntries(words.map((w) => [w.id, w]));
     store.askToPersist();
     render();

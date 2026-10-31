@@ -73,13 +73,14 @@ export function practicePool(words) {
 export const applyPool = (words) =>
   shuffle(words.filter((w) => { const p = progressOf(w.id); return p.stage === 2 && (p.prac || 0) >= PRACTICE_TO_APPLY; }));
 
-// Three wrong options for pick-the-word: same level, same part of speech where possible.
+// Three wrong options for pick-the-word: same topic and part of speech where possible, then same topic.
 export function distractors(words, w, n = 3) {
   const others = words.filter((o) => o.id !== w.id && o.answer.toLowerCase() !== w.answer.toLowerCase());
-  const same = shuffle(others.filter((o) => o.level === w.level && o.pos === w.pos));
-  const level = shuffle(others.filter((o) => o.level === w.level && o.pos !== w.pos));
+  const close = shuffle(others.filter((o) => o.tag === w.tag && o.pos === w.pos && o.level === w.level));
+  const topic = shuffle(others.filter((o) => o.tag === w.tag && o.pos === w.pos));
+  const any = shuffle(others.filter((o) => o.tag === w.tag));
   const picked = [];
-  for (const o of [...same, ...level, ...shuffle(others)]) {
+  for (const o of [...close, ...topic, ...any, ...shuffle(others)]) {
     if (picked.length === n) break;
     if (!picked.some((x) => x.answer.toLowerCase() === o.answer.toLowerCase())) picked.push(o);
   }

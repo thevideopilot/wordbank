@@ -1,5 +1,5 @@
 // Small rendering helpers shared by the screens.
-import { POS, levelName, tagName } from './data.js';
+import { POS, levelName, tagName, isConcept } from './data.js';
 import { STAGES, STAGE_KEYS } from './srs.js';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -43,17 +43,17 @@ export function cardHead(w, tag = 'h1') {
 }
 
 export function cardDetails(w) {
-  const isTech = w.tag === 'tech';
+  const concept = isConcept(w);
   const chips = (list) => list.map((s) => `<span class="chip">${esc(s)}</span>`).join('');
   return `
     <div class="details">
       <p class="meaning">${esc(w.meaning)}</p>
       <div class="example">
-        <span class="label">${isTech ? 'Think of it like' : 'Everyday'}</span>
-        <p>${isTech ? esc(w.everyday) : highlight(w.everyday, w.word)}</p>
+        <span class="label">${concept ? 'Think of it like' : 'Everyday'}</span>
+        <p>${concept ? esc(w.everyday) : highlight(w.everyday, w.word)}</p>
       </div>
       <div class="example">
-        <span class="label">At work</span>
+        <span class="label">${concept ? 'In use' : 'At work'}</span>
         <p>${highlight(w.work, w.word)}</p>
       </div>
       ${w.synonyms.length ? `<div class="related"><span class="label">Similar</span><div class="chips">${chips(w.synonyms)}</div></div>` : ''}

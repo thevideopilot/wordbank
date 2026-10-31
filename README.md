@@ -31,7 +31,12 @@ British English throughout. Your progress is stored on your device only.
 
 ## Word bank
 
-Words are grouped by **level** (Basic, Intermediate, Advanced) and tagged by **topic**: General, GRE / GMAT, Executive & strategy, Tech & AI. Each card has the meaning, British IPA, an everyday example (a plain-English comparison for tech terms), a work example, similar and opposite words, a gap-fill sentence, and a plain sentence with a model rewrite.
+Pitched for a native speaker with years in tech: nothing everyday, no mainstream jargon.
+
+- **Vocabulary (half):** GRE / GMAT words. Basic is entry-level GRE (*mitigate*, *acumen*), Intermediate is mid-level (*obsequious*, *equivocate*), Advanced is the hardest (*obloquy*, *contumacious*).
+- **Concepts (half):** Tech & AI, Strategy, Politics, Economics and Capital markets, from foundational (Basic) to specialist (Advanced), e.g. *speculative decoding*, *Goodhart's law*, *Salisbury convention*, *Baumol's cost disease*, *contango*.
+
+Each card has the meaning, British IPA, an example (for concepts, a plain-English comparison), a work or in-use example, similar and opposite terms, a gap-fill sentence, and a plain sentence with a model rewrite.
 
 Words live in `data/pack-*.json`, listed in `data/index.json`. The service worker reads that list, so a new pack needs no code change.
 

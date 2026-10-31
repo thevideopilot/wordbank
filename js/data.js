@@ -8,11 +8,16 @@ export const LEVELS = [
 ];
 
 export const TAGS = [
-  ['general', 'General'],
   ['exam', 'GRE / GMAT'],
-  ['exec', 'Executive & strategy'],
   ['tech', 'Tech & AI'],
+  ['exec', 'Strategy'],
+  ['politics', 'Politics'],
+  ['econ', 'Economics'],
+  ['markets', 'Capital markets'],
 ];
+
+// Everything except vocabulary is a concept: its "everyday" line is a plain-English comparison.
+export const isConcept = (w) => w.tag !== 'exam';
 
 export const POS = {
   adj: 'adjective', n: 'noun', v: 'verb', adv: 'adverb', 'phr v': 'phrasal verb',
