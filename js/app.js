@@ -546,5 +546,12 @@ window.addEventListener('beforeinstallprompt', (e) => {
   } catch (err) {
     app.innerHTML = `<p class="loading">Couldn't load the word list. Check your connection and reopen the app.<br><small>${esc(err.message)}</small></p>`;
   }
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) {
+    // When an update takes over, reload so the new version shows straight away (but never mid-session).
+    const updating = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (updating && view !== 'session') location.reload();
+    });
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
 })();

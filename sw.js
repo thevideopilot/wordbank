@@ -1,5 +1,5 @@
 // Offline support. Bump VERSION whenever app files change so phones pick up the update.
-const VERSION = 'wordbank-s2-2';
+const VERSION = 'wordbank-s2-3';
 const SHELL = [
   './',
   'index.html',
