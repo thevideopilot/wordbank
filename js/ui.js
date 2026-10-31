@@ -4,16 +4,28 @@ import { STAGES, STAGE_KEYS } from './srs.js';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-// Highlight the word (and simple inflections such as -s, -ed, -ing) inside an example.
-export function highlight(text, word) {
-  const safe = esc(text);
+// Matches the word plus simple inflections such as -s, -ed, -ing.
+function wordPattern(word) {
   const multi = word.includes(' ') || word.includes('-');
   let stem = word.toLowerCase();
   if (!multi && stem.length > 4 && stem.endsWith('e')) stem = stem.slice(0, -1);
   if (!multi && stem.length > 4 && stem.endsWith('y')) stem = stem.slice(0, -1);
   const pattern = stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const re = new RegExp(multi ? `(${pattern})` : `\\b(${pattern}\\w*)`, 'gi');
-  return safe.replace(re, '<mark>$1</mark>');
+  return new RegExp(multi ? `(${pattern})` : `\\b(${pattern}\\w*)`, 'gi');
+}
+
+// Highlight the word inside an example.
+export const highlight = (text, word) => esc(text).replace(wordPattern(word), '<mark>$1</mark>');
+
+export const usesWord = (text, word) => wordPattern(word).test(text);
+
+// A gap-fill sentence with the blank shown empty, or filled with the answer.
+export function gapSentence(w, filled) {
+  const [before, rest = ''] = w.gap.split('___');
+  // Keep punctuation straight after the blank on the same line as it.
+  const [, stuck, after] = rest.match(/^([.,;:!?'’"]*)([\s\S]*)$/);
+  const blank = filled ? `<mark class="blank filled">${esc(w.answer)}</mark>` : '<span class="blank" aria-label="blank"></span>';
+  return `${esc(before)}<span class="nowrap">${blank}${esc(stuck)}</span>${esc(after)}`;
 }
 
 export const stagePill = (stage) =>
@@ -55,5 +67,7 @@ export const ICON = {
   back: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   today: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 10h16M9 3v4M15 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
   words: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 17a3 3 0 0 1 3-3h10M9 8h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+  check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  cross: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>',
   search: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
 };

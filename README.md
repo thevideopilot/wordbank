@@ -16,8 +16,18 @@ British English throughout. Your progress is stored on your device only.
 | --- | --- | --- |
 | New | You see the word on a card and tap to reveal it | You study it once |
 | Learning | The card comes back in later rounds | You know it on two separate days |
-| Remembered | It appears in fill-the-gap and pick-the-word questions (sprint 2) | You get it right three times |
-| Applied | You've rewritten plain sentences with it (sprint 2) | Check-ups after 1, 3 and 7 days |
+| Remembered | It appears in fill-the-gap and pick-the-word questions, at most once a day | You get it right three times, then write one good rewrite |
+| Applied | You've used it in your own sentence | Check-ups after 1, 3 and 7 days, then monthly |
+
+## A day's session
+
+**Start session** (about 30 minutes with 8 cards) runs three parts in a row:
+
+1. **Learn**: due review cards first, then new cards from the level and topics you picked.
+2. **Practise**: up to 12 questions. Check-ups for Applied words come first. Questions alternate between picking the word from four options and typing it into the gap (with the meaning and first letter as a clue). Typing accepts small spelling slips and -ize spellings.
+3. **Apply**: up to 4 plain sentences to rewrite with a word. You compare your version with a model answer and mark yourself.
+
+**Quick 5 min** skips new cards and rewrites: just due reviews and practice questions.
 
 ## Word bank
 
@@ -34,7 +44,7 @@ Then add `"pack-002.json"` to `data/index.json`, add it to the `SHELL` list in `
 ## Sprints
 
 1. **Foundation and Learn** (done): installable offline app, Today screen, Learn cards with British pronunciation, four-stage tracking, Words list and search, first 150 words.
-2. **Practise and Apply**: fill-the-gap, pick-the-word, rewrite with model answer, daily 30-minute session and 5-minute mode, spaced check-ups, +175 words.
+2. **Practise and Apply** (done): fill-the-gap, pick-the-word, rewrite with model answer, daily 30-minute session and 5-minute mode, spaced check-ups, +175 words.
 3. **Progress and growth**: progress screen, topic filters, backup and restore, "New this week" shelf, weekly automatic top-up of ~20 words, final 175 words.
 
 ## Run locally

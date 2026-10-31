@@ -1,5 +1,5 @@
 // Offline support. Bump VERSION whenever app files change so phones pick up the update.
-const VERSION = 'wordbank-s1-1';
+const VERSION = 'wordbank-s2-2';
 const SHELL = [
   './',
   'index.html',
@@ -15,6 +15,7 @@ const SHELL = [
   'icons/apple-touch-icon.png',
   'data/index.json',
   'data/pack-001.json',
+  'data/pack-002.json',
 ];
 
 self.addEventListener('install', (event) => {
