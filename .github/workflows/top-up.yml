@@ -1,0 +1,46 @@
+# Every other Monday, release 20 words from tools/queue.txt as a new pack.
+# The queue is refilled by a monthly Claude task on the 1st.
+name: Fortnightly word top-up
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC; the script skips odd weeks
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = validate the queue only; release = release 20 words now"
+        default: check
+        type: choice
+        options: [check, release]
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  top-up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the queue
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'check'
+        run: python3 tools/release.py --check
+
+      - name: Release words
+        if: github.event_name == 'schedule' || inputs.mode == 'release'
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then python3 tools/release.py --even-weeks; else python3 tools/release.py; fi
+
+      - name: Commit, push and rebuild the site
+        if: github.event_name == 'schedule' || inputs.mode == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then echo "Nothing released."; exit 0; fi
+          git config user.name "wordbank-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data tools
+          git commit -m "Top-up: $(jq -r '.packs[-1]' data/index.json)"
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true

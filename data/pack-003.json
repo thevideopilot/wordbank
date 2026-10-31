@@ -1,0 +1,3963 @@
+{
+ "added": "2026-10-31",
+ "words": [
+  {
+   "word": "accurate",
+   "pos": "adj",
+   "ipa": "/ˈæk.jə.rət/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Correct and exact, with no mistakes.",
+   "everyday": "The weather app was accurate for once.",
+   "work": "Please make sure the figures in the report are accurate.",
+   "synonyms": [
+    "correct",
+    "precise"
+   ],
+   "antonyms": [
+    "inaccurate",
+    "wrong"
+   ],
+   "gap": "Is this map still ___?",
+   "answer": "accurate",
+   "plain": "Make sure the numbers are exactly right.",
+   "model": "Make sure the numbers are accurate.",
+   "id": "accurate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "admire",
+   "pos": "v",
+   "ipa": "/ədˈmaɪə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To respect and approve of someone or something.",
+   "everyday": "I admire how calm my mum is in a crisis.",
+   "work": "I admire the way she handles difficult clients.",
+   "synonyms": [
+    "respect",
+    "look up to"
+   ],
+   "antonyms": [
+    "despise",
+    "scorn"
+   ],
+   "gap": "I really ___ people who learn a new language as adults.",
+   "answer": "admire",
+   "plain": "I really respect how he leads the team.",
+   "model": "I admire how he leads the team.",
+   "id": "admire",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "afford",
+   "pos": "v",
+   "ipa": "/əˈfɔːd/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To have enough money or time for something.",
+   "everyday": "We can't afford a holiday this year.",
+   "work": "We can't afford another delay on this project.",
+   "synonyms": [
+    "manage",
+    "run to"
+   ],
+   "antonyms": [],
+   "gap": "I can't ___ a new car right now.",
+   "answer": "afford",
+   "plain": "We don't have enough money to hire two more people.",
+   "model": "We can't afford to hire two more people.",
+   "id": "afford",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "borrow",
+   "pos": "v",
+   "ipa": "/ˈbɒr.əʊ/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To take something that you will give back later.",
+   "everyday": "Can I borrow your umbrella?",
+   "work": "Can I borrow your notes from the planning meeting?",
+   "synonyms": [
+    "take on loan"
+   ],
+   "antonyms": [
+    "lend"
+   ],
+   "gap": "Could I ___ your charger for an hour?",
+   "answer": "borrow",
+   "plain": "Can I use your laptop for a bit and give it back?",
+   "model": "Can I borrow your laptop for a bit?",
+   "id": "borrow",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "cheerful",
+   "pos": "adj",
+   "ipa": "/ˈtʃɪə.fəl/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Happy and positive.",
+   "everyday": "The café has a cheerful yellow door.",
+   "work": "She stays cheerful even on the busiest days.",
+   "synonyms": [
+    "upbeat",
+    "sunny"
+   ],
+   "antonyms": [
+    "gloomy",
+    "miserable"
+   ],
+   "gap": "He's always ___ first thing in the morning.",
+   "answer": "cheerful",
+   "plain": "She's always happy and positive with customers.",
+   "model": "She's always cheerful with customers.",
+   "id": "cheerful",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "compare",
+   "pos": "v",
+   "ipa": "/kəmˈpeə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To look at how things are similar or different.",
+   "everyday": "I always compare prices before I buy.",
+   "work": "Let's compare this quarter with last quarter.",
+   "synonyms": [
+    "contrast",
+    "weigh up"
+   ],
+   "antonyms": [],
+   "gap": "It's hard to ___ the two phones; they're so similar.",
+   "answer": "compare",
+   "plain": "Let's look at both offers side by side.",
+   "model": "Let's compare the two offers.",
+   "id": "compare",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "convenient",
+   "pos": "adj",
+   "ipa": "/kənˈviː.ni.ənt/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Easy to use or suitable for your plans.",
+   "everyday": "The flat is convenient for the station.",
+   "work": "Is Thursday at ten convenient for you?",
+   "synonyms": [
+    "handy",
+    "suitable"
+   ],
+   "antonyms": [
+    "inconvenient",
+    "awkward"
+   ],
+   "gap": "Is 3 p.m. ___ for a quick call?",
+   "answer": "convenient",
+   "plain": "Does Monday morning suit you?",
+   "model": "Is Monday morning convenient for you?",
+   "id": "convenient",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "delay",
+   "pos": "n",
+   "ipa": "/dɪˈleɪ/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "A time when something happens later than planned.",
+   "everyday": "There was a long delay at the airport.",
+   "work": "Any delay to the launch will cost us customers.",
+   "synonyms": [
+    "hold-up",
+    "setback"
+   ],
+   "antonyms": [],
+   "gap": "We apologise for the ___ to your train.",
+   "answer": "delay",
+   "plain": "The order arrived late because of a hold-up at the port.",
+   "model": "The order was late because of a delay at the port.",
+   "id": "delay",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "deserve",
+   "pos": "v",
+   "ipa": "/dɪˈzɜːv/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To have earned something because of what you have done.",
+   "everyday": "After that week, you deserve a lie-in.",
+   "work": "The team deserves real credit for this launch.",
+   "synonyms": [
+    "earn",
+    "merit"
+   ],
+   "antonyms": [],
+   "gap": "You worked hard and you ___ a break.",
+   "answer": "deserve",
+   "plain": "She has earned the promotion through her hard work.",
+   "model": "She deserves the promotion.",
+   "id": "deserve",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "eventually",
+   "pos": "adv",
+   "ipa": "/ɪˈven.tʃu.ə.li/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "In the end, after a long time.",
+   "everyday": "The bus eventually turned up after forty minutes.",
+   "work": "The client eventually agreed to our terms.",
+   "synonyms": [
+    "finally",
+    "in the end"
+   ],
+   "antonyms": [
+    "immediately"
+   ],
+   "gap": "After hours of searching, we ___ found the keys.",
+   "answer": "eventually",
+   "plain": "In the end, after a long time, they said yes.",
+   "model": "They eventually said yes.",
+   "id": "eventually",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "fair",
+   "pos": "adj",
+   "ipa": "/feə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Treating people equally and reasonably.",
+   "everyday": "It's not fair that he gets the bigger slice.",
+   "work": "We need a fair way to share the on-call rota.",
+   "synonyms": [
+    "just",
+    "even-handed"
+   ],
+   "antonyms": [
+    "unfair",
+    "biased"
+   ],
+   "gap": "The referee made a ___ decision.",
+   "answer": "fair",
+   "plain": "We want a way of sharing work that treats everyone equally.",
+   "model": "We want a fair way of sharing work.",
+   "id": "fair",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "fragile",
+   "pos": "adj",
+   "ipa": "/ˈfrædʒ.aɪl/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Easily broken or damaged.",
+   "everyday": "Careful with that box; it's fragile.",
+   "work": "The old system is fragile, so we change it slowly.",
+   "synonyms": [
+    "delicate",
+    "breakable"
+   ],
+   "antonyms": [
+    "sturdy",
+    "robust"
+   ],
+   "gap": "The parcel was marked \"___: handle with care\".",
+   "answer": "fragile",
+   "plain": "The supplier deal could easily fall apart.",
+   "model": "The supplier deal is fragile.",
+   "id": "fragile",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "gather",
+   "pos": "v",
+   "ipa": "/ˈɡæð.ə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To collect things or bring people together.",
+   "everyday": "We gathered shells on the beach.",
+   "work": "We need to gather feedback before we decide.",
+   "synonyms": [
+    "collect",
+    "assemble"
+   ],
+   "antonyms": [
+    "scatter",
+    "disperse"
+   ],
+   "gap": "Let's ___ everyone in the kitchen for the announcement.",
+   "answer": "gather",
+   "plain": "We need to collect the data first.",
+   "model": "We need to gather the data first.",
+   "id": "gather",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "guilty",
+   "pos": "adj",
+   "ipa": "/ˈɡɪl.ti/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Feeling bad because you did something wrong; or responsible for a crime.",
+   "everyday": "I feel guilty for eating the last biscuit.",
+   "work": "I felt guilty about missing her presentation.",
+   "synonyms": [
+    "ashamed",
+    "remorseful"
+   ],
+   "antonyms": [
+    "innocent"
+   ],
+   "gap": "I feel ___ about forgetting her birthday.",
+   "answer": "guilty",
+   "plain": "I feel bad that I didn't reply sooner.",
+   "model": "I feel guilty that I didn't reply sooner.",
+   "id": "guilty",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "honest",
+   "pos": "adj",
+   "ipa": "/ˈɒn.ɪst/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Telling the truth and not cheating.",
+   "everyday": "Be honest: do you like my new haircut?",
+   "work": "Thank you for your honest feedback on the draft.",
+   "synonyms": [
+    "truthful",
+    "sincere"
+   ],
+   "antonyms": [
+    "dishonest",
+    "deceitful"
+   ],
+   "gap": "To be ___, I'm not sure it will work.",
+   "answer": "honest",
+   "plain": "Tell me truthfully what you think.",
+   "model": "Be honest with me.",
+   "id": "honest",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ignore",
+   "pos": "v",
+   "ipa": "/ɪɡˈnɔː/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To pay no attention to something or someone.",
+   "everyday": "Just ignore the noise from upstairs.",
+   "work": "We can't ignore the drop in sign-ups.",
+   "synonyms": [
+    "disregard",
+    "overlook"
+   ],
+   "antonyms": [
+    "notice",
+    "heed"
+   ],
+   "gap": "Don't ___ the warning light on the dashboard.",
+   "answer": "ignore",
+   "plain": "We can't pretend the complaints aren't there.",
+   "model": "We can't ignore the complaints.",
+   "id": "ignore",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "impress",
+   "pos": "v",
+   "ipa": "/ɪmˈpres/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To make someone admire or respect you.",
+   "everyday": "Her cooking always impresses my friends.",
+   "work": "The demo really impressed the client.",
+   "synonyms": [
+    "wow",
+    "dazzle"
+   ],
+   "antonyms": [
+    "disappoint"
+   ],
+   "gap": "He wore a suit to ___ her parents.",
+   "answer": "impress",
+   "plain": "The client was amazed by our design.",
+   "model": "Our design impressed the client.",
+   "id": "impress",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "include",
+   "pos": "v",
+   "ipa": "/ɪnˈkluːd/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To make something part of a group or total.",
+   "everyday": "The price includes breakfast.",
+   "work": "Please include the budget in your proposal.",
+   "synonyms": [
+    "contain",
+    "cover"
+   ],
+   "antonyms": [
+    "exclude",
+    "leave out"
+   ],
+   "gap": "Does the price ___ delivery?",
+   "answer": "include",
+   "plain": "Please put the costs in your report.",
+   "model": "Please include the costs in your report.",
+   "id": "include",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "jealous",
+   "pos": "adj",
+   "ipa": "/ˈdʒel.əs/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Unhappy because someone has something you want.",
+   "everyday": "I'm jealous of your holiday tan.",
+   "work": "He seemed jealous of his colleague's promotion.",
+   "synonyms": [
+    "envious"
+   ],
+   "antonyms": [
+    "content",
+    "generous"
+   ],
+   "gap": "She was ___ of her sister's new phone.",
+   "answer": "jealous",
+   "plain": "He wanted what his friend had and felt upset.",
+   "model": "He was jealous of his friend.",
+   "id": "jealous",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "loyal",
+   "pos": "adj",
+   "ipa": "/ˈlɔɪ.əl/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Always supporting a person, group or company.",
+   "everyday": "Our dog is very loyal.",
+   "work": "We reward loyal customers with discounts.",
+   "synonyms": [
+    "faithful",
+    "devoted"
+   ],
+   "antonyms": [
+    "disloyal",
+    "fickle"
+   ],
+   "gap": "She's been a ___ customer for ten years.",
+   "answer": "loyal",
+   "plain": "He has always supported the company through hard times.",
+   "model": "He has stayed loyal to the company.",
+   "id": "loyal",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "messy",
+   "pos": "adj",
+   "ipa": "/ˈmes.i/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Untidy or dirty; or complicated and unpleasant.",
+   "everyday": "My son's bedroom is always messy.",
+   "work": "The handover was messy because nothing was documented.",
+   "synonyms": [
+    "untidy",
+    "chaotic"
+   ],
+   "antonyms": [
+    "tidy",
+    "neat"
+   ],
+   "gap": "The kitchen was ___ after the party.",
+   "answer": "messy",
+   "plain": "The data is all over the place and hard to use.",
+   "model": "The data is messy.",
+   "id": "messy",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "modest",
+   "pos": "adj",
+   "ipa": "/ˈmɒd.ɪst/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Not talking much about your own achievements; or not large.",
+   "everyday": "He's modest about his marathon time.",
+   "work": "We expect modest growth this year.",
+   "synonyms": [
+    "humble",
+    "unassuming"
+   ],
+   "antonyms": [
+    "boastful",
+    "arrogant"
+   ],
+   "gap": "She's too ___ to mention her award.",
+   "answer": "modest",
+   "plain": "He never shows off about his success.",
+   "model": "He's modest about his success.",
+   "id": "modest",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "occasionally",
+   "pos": "adv",
+   "ipa": "/əˈkeɪ.ʒən.əl.i/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Sometimes, but not often.",
+   "everyday": "We occasionally eat out on a Friday.",
+   "work": "I occasionally work from the London office.",
+   "synonyms": [
+    "sometimes",
+    "now and then"
+   ],
+   "antonyms": [
+    "often",
+    "regularly"
+   ],
+   "gap": "I only ___ drink coffee.",
+   "answer": "occasionally",
+   "plain": "I go to the gym now and then.",
+   "model": "I occasionally go to the gym.",
+   "id": "occasionally",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "pleasant",
+   "pos": "adj",
+   "ipa": "/ˈplez.ənt/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Enjoyable, nice or friendly.",
+   "everyday": "We had a pleasant walk by the river.",
+   "work": "It was a pleasant surprise to finish early.",
+   "synonyms": [
+    "nice",
+    "agreeable"
+   ],
+   "antonyms": [
+    "unpleasant",
+    "nasty"
+   ],
+   "gap": "The hotel staff were very ___.",
+   "answer": "pleasant",
+   "plain": "The meeting was nice and friendly.",
+   "model": "The meeting was pleasant.",
+   "id": "pleasant",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "proud",
+   "pos": "adj",
+   "ipa": "/praʊd/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Feeling pleased about something you or someone close to you has done.",
+   "everyday": "I'm so proud of my daughter.",
+   "work": "We're proud of what the team achieved this year.",
+   "synonyms": [
+    "pleased",
+    "satisfied"
+   ],
+   "antonyms": [
+    "ashamed"
+   ],
+   "gap": "Her parents were ___ when she graduated.",
+   "answer": "proud",
+   "plain": "I'm really pleased with what we built.",
+   "model": "I'm proud of what we built.",
+   "id": "proud",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "recover",
+   "pos": "v",
+   "ipa": "/rɪˈkʌv.ə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "To get better after an illness or problem.",
+   "everyday": "He's recovering from a bad cold.",
+   "work": "Sales recovered after the summer dip.",
+   "synonyms": [
+    "get better",
+    "bounce back"
+   ],
+   "antonyms": [
+    "worsen",
+    "decline"
+   ],
+   "gap": "It took her weeks to ___ from the flu.",
+   "answer": "recover",
+   "plain": "The share price got better after the news.",
+   "model": "The share price recovered after the news.",
+   "id": "recover",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "rare",
+   "pos": "adj",
+   "ipa": "/reə/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Not happening or seen very often.",
+   "everyday": "It's rare to see snow in London.",
+   "work": "It's rare for a client to pay early.",
+   "synonyms": [
+    "unusual",
+    "uncommon"
+   ],
+   "antonyms": [
+    "common",
+    "frequent"
+   ],
+   "gap": "This bird is very ___ in Britain.",
+   "answer": "rare",
+   "plain": "It doesn't happen often that we miss a deadline.",
+   "model": "It's rare for us to miss a deadline.",
+   "id": "rare",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "request",
+   "pos": "n",
+   "ipa": "/rɪˈkwest/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "The act of politely asking for something.",
+   "everyday": "The DJ took requests all night.",
+   "work": "I've sent a request for extra budget.",
+   "synonyms": [
+    "appeal",
+    "application"
+   ],
+   "antonyms": [],
+   "gap": "We received your ___ for a refund.",
+   "answer": "request",
+   "plain": "I asked politely for more time.",
+   "model": "I made a request for more time.",
+   "id": "request",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "steady",
+   "pos": "adj",
+   "ipa": "/ˈsted.i/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Firm and not shaking; or happening at a regular, even rate.",
+   "everyday": "Hold the ladder steady.",
+   "work": "We've seen steady growth all year.",
+   "synonyms": [
+    "stable",
+    "constant"
+   ],
+   "antonyms": [
+    "unsteady",
+    "erratic"
+   ],
+   "gap": "Sales have shown ___ growth this year.",
+   "answer": "steady",
+   "plain": "Our income has grown evenly and regularly.",
+   "model": "Our income has grown at a steady rate.",
+   "id": "steady",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "temporary",
+   "pos": "adj",
+   "ipa": "/ˈtem.pər.ər.i/",
+   "level": "basic",
+   "tag": "general",
+   "meaning": "Lasting for only a short time.",
+   "everyday": "This is just a temporary fix for the tap.",
+   "work": "We've hired temporary staff for December.",
+   "synonyms": [
+    "short-term",
+    "interim"
+   ],
+   "antonyms": [
+    "permanent",
+    "lasting"
+   ],
+   "gap": "The road closure is only ___.",
+   "answer": "temporary",
+   "plain": "This office is just for now, until the new one is ready.",
+   "model": "This office is temporary.",
+   "id": "temporary",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "action item",
+   "pos": "n",
+   "ipa": "/ˈæk.ʃən ˌaɪ.təm/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "A task agreed in a meeting, with someone responsible for it.",
+   "everyday": "My action item from the family meeting was booking the holiday.",
+   "work": "Let's go through the action items before we finish.",
+   "synonyms": [
+    "to-do",
+    "task"
+   ],
+   "antonyms": [],
+   "gap": "Each ___ needs an owner and a deadline.",
+   "answer": "action item",
+   "plain": "Who is going to do each of the tasks we agreed?",
+   "model": "Who owns each action item?",
+   "id": "action-item",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "sign off",
+   "pos": "phr v",
+   "ipa": "/saɪn ˈɒf/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "To give formal approval for something.",
+   "everyday": "My mum has to sign off on any pet we get.",
+   "work": "Legal needs to sign off the contract first.",
+   "synonyms": [
+    "approve",
+    "authorise"
+   ],
+   "antonyms": [
+    "reject"
+   ],
+   "gap": "The director needs to ___ the budget.",
+   "answer": "sign off",
+   "plain": "The manager has to approve the design first.",
+   "model": "The manager has to sign off the design first.",
+   "id": "sign-off",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "status update",
+   "pos": "n",
+   "ipa": "/ˈsteɪ.təs ˌʌp.deɪt/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "A short report on how work is progressing.",
+   "everyday": "I gave Gran a status update on the cake.",
+   "work": "Please send a status update every Friday.",
+   "synonyms": [
+    "progress report",
+    "update"
+   ],
+   "antonyms": [],
+   "gap": "Can you give me a quick ___ on the project?",
+   "answer": "status update",
+   "plain": "Tell me briefly where things are with the project.",
+   "model": "Give me a status update on the project.",
+   "id": "status-update",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "out of office",
+   "pos": "n",
+   "ipa": "/ˌaʊt əv ˈɒf.ɪs/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "An automatic reply saying you are away from work.",
+   "everyday": "Like putting a \"back in five minutes\" sign on a shop door.",
+   "work": "Remember to set your out of office before your holiday.",
+   "synonyms": [
+    "auto-reply",
+    "away message"
+   ],
+   "antonyms": [],
+   "gap": "Set your ___ before you go on leave.",
+   "answer": "out of office",
+   "plain": "Turn on the automatic message saying you're away.",
+   "model": "Turn on your out of office.",
+   "id": "out-of-office",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "heads-up",
+   "pos": "n",
+   "ipa": "/ˈhedz.ʌp/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "An early warning about something that is going to happen.",
+   "everyday": "Thanks for the heads-up about the road works.",
+   "work": "Just a heads-up: the client may ask about pricing.",
+   "synonyms": [
+    "warning",
+    "tip-off"
+   ],
+   "antonyms": [],
+   "gap": "Thanks for the ___ about the meeting moving.",
+   "answer": "heads-up",
+   "plain": "Just to warn you early, the deadline might change.",
+   "model": "Just a heads-up: the deadline might change.",
+   "id": "heads-up",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ballpark",
+   "pos": "adj",
+   "ipa": "/ˈbɔːl.pɑːk/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "Roughly accurate; an estimate.",
+   "everyday": "What's a ballpark price for a new boiler?",
+   "work": "Can you give me a ballpark figure for the project?",
+   "synonyms": [
+    "rough",
+    "approximate"
+   ],
+   "antonyms": [
+    "exact",
+    "precise"
+   ],
+   "gap": "Give me a ___ figure; it doesn't need to be exact.",
+   "answer": "ballpark",
+   "plain": "Give me a rough idea of the cost.",
+   "model": "Give me a ballpark figure for the cost.",
+   "id": "ballpark",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "catch-up",
+   "pos": "n",
+   "ipa": "/ˈkætʃ.ʌp/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "An informal meeting to share news.",
+   "everyday": "I had a catch-up with an old friend over coffee.",
+   "work": "Let's book a weekly catch-up to stay aligned.",
+   "synonyms": [
+    "check-in",
+    "chat"
+   ],
+   "antonyms": [],
+   "gap": "Let's have a quick ___ on Monday.",
+   "answer": "catch-up",
+   "plain": "Let's have an informal chat next week.",
+   "model": "Let's have a catch-up next week.",
+   "id": "catch-up",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "pipeline",
+   "pos": "n",
+   "ipa": "/ˈpaɪp.laɪn/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "Things being prepared or deals in progress that are expected soon.",
+   "everyday": "We've got a new kitchen in the pipeline.",
+   "work": "We have a strong pipeline of deals for next quarter.",
+   "synonyms": [
+    "queue",
+    "backlog"
+   ],
+   "antonyms": [],
+   "gap": "There are several new products in the ___.",
+   "answer": "pipeline",
+   "plain": "We have lots of possible deals coming.",
+   "model": "We have a strong pipeline of deals.",
+   "id": "pipeline",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "quarter",
+   "pos": "n",
+   "ipa": "/ˈkwɔː.tə/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "A period of three months in a business year.",
+   "everyday": "Our energy bill comes every quarter.",
+   "work": "Sales were up in the last quarter.",
+   "synonyms": [
+    "three months"
+   ],
+   "antonyms": [],
+   "gap": "Profits rose sharply in the third ___.",
+   "answer": "quarter",
+   "plain": "Sales went up from July to September.",
+   "model": "Sales went up last quarter.",
+   "id": "quarter",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "revenue",
+   "pos": "n",
+   "ipa": "/ˈrev.ən.juː/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "The money a business receives from selling things.",
+   "everyday": "The school fair raised revenue for new books.",
+   "work": "Our revenue grew by 20% this year.",
+   "synonyms": [
+    "income",
+    "takings"
+   ],
+   "antonyms": [
+    "expenditure",
+    "costs"
+   ],
+   "gap": "Online sales now bring in most of our ___.",
+   "answer": "revenue",
+   "plain": "We earned more money from sales this year.",
+   "model": "Our revenue grew this year.",
+   "id": "revenue",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "profit",
+   "pos": "n",
+   "ipa": "/ˈprɒf.ɪt/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "The money you make after paying all your costs.",
+   "everyday": "She sold the bike at a small profit.",
+   "work": "We made a profit for the first time this year.",
+   "synonyms": [
+    "earnings",
+    "gain"
+   ],
+   "antonyms": [
+    "loss"
+   ],
+   "gap": "The company made a ___ of two million pounds.",
+   "answer": "profit",
+   "plain": "After costs, we had money left over.",
+   "model": "We made a profit.",
+   "id": "profit",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "quote",
+   "pos": "n",
+   "ipa": "/kwəʊt/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "A price someone gives in advance for a job.",
+   "everyday": "The builder gave us a quote for the extension.",
+   "work": "Get three quotes before choosing a supplier.",
+   "synonyms": [
+    "estimate",
+    "price"
+   ],
+   "antonyms": [],
+   "gap": "Can you send me a ___ for the work?",
+   "answer": "quote",
+   "plain": "Tell me how much it will cost before you start.",
+   "model": "Send me a quote before you start.",
+   "id": "quote",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "appraisal",
+   "pos": "n",
+   "ipa": "/əˈpreɪ.zəl/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "A formal review of how well an employee is doing.",
+   "everyday": "The car got a valuation, a sort of appraisal, before the sale.",
+   "work": "My annual appraisal is next Thursday.",
+   "synonyms": [
+    "performance review",
+    "evaluation"
+   ],
+   "antonyms": [],
+   "gap": "Her ___ went well and she got a pay rise.",
+   "answer": "appraisal",
+   "plain": "My manager and I will discuss how I'm doing this year.",
+   "model": "I have my appraisal this year.",
+   "id": "appraisal",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ownership",
+   "pos": "n",
+   "ipa": "/ˈəʊ.nə.ʃɪp/",
+   "level": "basic",
+   "tag": "exec",
+   "meaning": "Taking responsibility for a task and its result.",
+   "everyday": "The kids took ownership of feeding the cat.",
+   "work": "She took ownership of the problem and fixed it.",
+   "synonyms": [
+    "responsibility",
+    "accountability"
+   ],
+   "antonyms": [],
+   "gap": "I'd like you to take ___ of the launch plan.",
+   "answer": "ownership",
+   "plain": "He took responsibility for fixing the bug.",
+   "model": "He took ownership of fixing the bug.",
+   "id": "ownership",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "app",
+   "pos": "n",
+   "ipa": "/æp/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A program you download onto a phone or computer to do a particular job.",
+   "everyday": "Like a tool from a toolbox, each one built for one job.",
+   "work": "Download the app to book your desk.",
+   "synonyms": [
+    "application",
+    "program"
+   ],
+   "antonyms": [],
+   "gap": "There's an ___ for tracking your spending.",
+   "answer": "app",
+   "plain": "I use a program on my phone to book trains.",
+   "model": "I use an app to book trains.",
+   "id": "app",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "upload",
+   "pos": "v",
+   "ipa": "/ʌpˈləʊd/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "To send a file from your device to the internet.",
+   "everyday": "Like posting a letter: it leaves your house and goes to someone else's.",
+   "work": "Please upload your slides to the shared folder.",
+   "synonyms": [
+    "send",
+    "post"
+   ],
+   "antonyms": [
+    "download"
+   ],
+   "gap": "___ your photos to share them with the family.",
+   "answer": "Upload",
+   "plain": "Put the file onto the shared drive.",
+   "model": "Upload the file to the shared drive.",
+   "id": "upload",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "storage",
+   "pos": "n",
+   "ipa": "/ˈstɔː.rɪdʒ/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "Space on a device or online for keeping files.",
+   "everyday": "Like the cupboards in your house: once they're full, nothing else fits.",
+   "work": "My phone keeps saying the storage is full.",
+   "synonyms": [
+    "space",
+    "memory"
+   ],
+   "antonyms": [],
+   "gap": "My phone has run out of ___.",
+   "answer": "storage",
+   "plain": "My laptop doesn't have any space left for files.",
+   "model": "My laptop has run out of storage.",
+   "id": "storage",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "network",
+   "pos": "n",
+   "ipa": "/ˈnet.wɜːk/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A group of connected computers or devices that share information.",
+   "everyday": "Like roads connecting houses so people can visit each other.",
+   "work": "The office network is down this morning.",
+   "synonyms": [
+    "system",
+    "connection"
+   ],
+   "antonyms": [],
+   "gap": "The printer isn't connected to the ___.",
+   "answer": "network",
+   "plain": "My laptop can't connect to the office computers.",
+   "model": "My laptop can't connect to the network.",
+   "id": "network",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "attachment",
+   "pos": "n",
+   "ipa": "/əˈtætʃ.mənt/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A file sent along with an email.",
+   "everyday": "Like a photo slipped into an envelope with a letter.",
+   "work": "I've sent the contract as an attachment.",
+   "synonyms": [
+    "enclosure",
+    "file"
+   ],
+   "antonyms": [],
+   "gap": "Please see the ___ for the full report.",
+   "answer": "attachment",
+   "plain": "I've added the file to the email.",
+   "model": "The file is an attachment to the email.",
+   "id": "attachment",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "username",
+   "pos": "n",
+   "ipa": "/ˈjuː.zə.neɪm/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "The name you use to identify yourself when logging in.",
+   "everyday": "Like the name on your gym membership card.",
+   "work": "Your username is your work email address.",
+   "synonyms": [
+    "login name",
+    "handle"
+   ],
+   "antonyms": [],
+   "gap": "Enter your ___ and password.",
+   "answer": "username",
+   "plain": "Type the name you log in with.",
+   "model": "Type your username.",
+   "id": "username",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "link",
+   "pos": "n",
+   "ipa": "/lɪŋk/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "Text or a button you click to go to another page or file.",
+   "everyday": "Like a signpost that takes you straight to the right street.",
+   "work": "I've sent you the link to the meeting.",
+   "synonyms": [
+    "hyperlink",
+    "URL"
+   ],
+   "antonyms": [],
+   "gap": "Click the ___ to join the call.",
+   "answer": "link",
+   "plain": "I'll send you the web address for the form.",
+   "model": "I'll send you the link to the form.",
+   "id": "link",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "search engine",
+   "pos": "n",
+   "ipa": "/ˈsɜːtʃ ˌen.dʒɪn/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A website that finds information on the internet, such as Google.",
+   "everyday": "Like a librarian who finds the right book in seconds.",
+   "work": "We want our site to appear high in search engine results.",
+   "synonyms": [
+    "web search"
+   ],
+   "antonyms": [],
+   "gap": "Type your question into a ___.",
+   "answer": "search engine",
+   "plain": "Look it up on Google.",
+   "model": "Look it up on a search engine.",
+   "id": "search-engine",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "hardware",
+   "pos": "n",
+   "ipa": "/ˈhɑːd.weə/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "The physical parts of a computer, such as the screen and keyboard.",
+   "everyday": "Like the body of a car, as opposed to the driver.",
+   "work": "We need new hardware for the design team.",
+   "synonyms": [
+    "equipment",
+    "kit"
+   ],
+   "antonyms": [
+    "software"
+   ],
+   "gap": "The problem is with the ___, not the program.",
+   "answer": "hardware",
+   "plain": "We need new laptops and screens.",
+   "model": "We need new hardware.",
+   "id": "hardware",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "software",
+   "pos": "n",
+   "ipa": "/ˈsɒft.weə/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "The programs that run on a computer.",
+   "everyday": "Like the recipes a kitchen follows, as opposed to the ovens and pans.",
+   "work": "We've bought new accounting software.",
+   "synonyms": [
+    "programs",
+    "applications"
+   ],
+   "antonyms": [
+    "hardware"
+   ],
+   "gap": "Install the latest ___ update.",
+   "answer": "software",
+   "plain": "We use a program to track our hours.",
+   "model": "We use software to track our hours.",
+   "id": "software",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "pixel",
+   "pos": "n",
+   "ipa": "/ˈpɪk.səl/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "One of the tiny dots that make up a picture on a screen.",
+   "everyday": "Like one tile in a huge mosaic.",
+   "work": "The logo looks blurry; it needs more pixels.",
+   "synonyms": [
+    "dot"
+   ],
+   "antonyms": [],
+   "gap": "Every ___ on the screen can change colour.",
+   "answer": "pixel",
+   "plain": "The photo is made of millions of tiny coloured dots.",
+   "model": "The photo is made of millions of pixels.",
+   "id": "pixel",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "keyboard shortcut",
+   "pos": "n",
+   "ipa": "/ˌkiː.bɔːd ˈʃɔːt.kʌt/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A combination of keys that does something quickly.",
+   "everyday": "Like a secret back door that saves you walking round the front.",
+   "work": "Use the keyboard shortcut to copy and paste.",
+   "synonyms": [
+    "hotkey"
+   ],
+   "antonyms": [],
+   "gap": "Press Ctrl and S: it's a ___ for saving.",
+   "answer": "keyboard shortcut",
+   "plain": "Press two keys at once to save quickly.",
+   "model": "Use a keyboard shortcut to save.",
+   "id": "keyboard-shortcut",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "crash",
+   "pos": "v",
+   "ipa": "/kræʃ/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "When a program or computer suddenly stops working.",
+   "everyday": "Like a car stalling in the middle of a junction.",
+   "work": "The app crashed during the demo.",
+   "synonyms": [
+    "freeze",
+    "fail"
+   ],
+   "antonyms": [],
+   "gap": "My laptop keeps ___ when I open big files.",
+   "answer": "crashing",
+   "plain": "The program suddenly stopped working.",
+   "model": "The program crashed.",
+   "id": "crash",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "glitch",
+   "pos": "n",
+   "ipa": "/ɡlɪtʃ/",
+   "level": "basic",
+   "tag": "tech",
+   "meaning": "A small, often temporary fault.",
+   "everyday": "Like a hiccup: annoying, but usually gone quickly.",
+   "work": "A glitch sent the newsletter twice.",
+   "synonyms": [
+    "bug",
+    "hiccup"
+   ],
+   "antonyms": [],
+   "gap": "A small ___ stopped the payment going through.",
+   "answer": "glitch",
+   "plain": "A little fault made the screen flicker.",
+   "model": "A glitch made the screen flicker.",
+   "id": "glitch",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "abundant",
+   "pos": "adj",
+   "ipa": "/əˈbʌn.dənt/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Existing in large amounts; more than enough.",
+   "everyday": "The garden has abundant apples this year.",
+   "work": "We have abundant data but not much insight.",
+   "synonyms": [
+    "plentiful",
+    "ample"
+   ],
+   "antonyms": [
+    "scarce",
+    "sparse"
+   ],
+   "gap": "Fresh fish is ___ in this town.",
+   "answer": "abundant",
+   "plain": "There's lots and lots of talent in the team.",
+   "model": "Talent is abundant in the team.",
+   "id": "abundant",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "accommodate",
+   "pos": "v",
+   "ipa": "/əˈkɒm.ə.deɪt/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To provide space for someone, or to adjust to fit their needs.",
+   "everyday": "The hotel can accommodate 200 guests.",
+   "work": "We can accommodate your request for a later start.",
+   "synonyms": [
+    "house",
+    "cater for"
+   ],
+   "antonyms": [
+    "refuse",
+    "reject"
+   ],
+   "gap": "The room can ___ up to fifty people.",
+   "answer": "accommodate",
+   "plain": "We can fit in your request for an extra session.",
+   "model": "We can accommodate your request for an extra session.",
+   "id": "accommodate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "adept",
+   "pos": "adj",
+   "ipa": "/əˈdept/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Very skilled at something.",
+   "everyday": "She's adept at fixing bikes.",
+   "work": "He's adept at handling difficult stakeholders.",
+   "synonyms": [
+    "skilled",
+    "proficient"
+   ],
+   "antonyms": [
+    "inept",
+    "clumsy"
+   ],
+   "gap": "He's ___ at calming angry customers.",
+   "answer": "adept",
+   "plain": "She's very good at negotiating.",
+   "model": "She's adept at negotiating.",
+   "id": "adept",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "assertive",
+   "pos": "adj",
+   "ipa": "/əˈsɜː.tɪv/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Confident and direct in saying what you want or think.",
+   "everyday": "You need to be assertive with that landlord.",
+   "work": "Be more assertive in meetings; your ideas are good.",
+   "synonyms": [
+    "confident",
+    "forceful"
+   ],
+   "antonyms": [
+    "timid",
+    "submissive"
+   ],
+   "gap": "She was ___ and asked for a pay rise.",
+   "answer": "assertive",
+   "plain": "He needs to speak up more confidently for himself.",
+   "model": "He needs to be more assertive.",
+   "id": "assertive",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "attain",
+   "pos": "v",
+   "ipa": "/əˈteɪn/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To achieve something after effort.",
+   "everyday": "He attained his black belt after six years.",
+   "work": "We attained our target ahead of schedule.",
+   "synonyms": [
+    "achieve",
+    "reach"
+   ],
+   "antonyms": [
+    "fail",
+    "miss"
+   ],
+   "gap": "She worked hard to ___ her goals.",
+   "answer": "attain",
+   "plain": "We reached our sales goal this month.",
+   "model": "We attained our sales goal this month.",
+   "id": "attain",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "brisk",
+   "pos": "adj",
+   "ipa": "/brɪsk/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Quick and energetic.",
+   "everyday": "We went for a brisk walk after lunch.",
+   "work": "Business has been brisk this month.",
+   "synonyms": [
+    "quick",
+    "lively"
+   ],
+   "antonyms": [
+    "slow",
+    "sluggish"
+   ],
+   "gap": "Trade was ___ in the run-up to Christmas.",
+   "answer": "brisk",
+   "plain": "Sales have been quick and busy.",
+   "model": "Sales have been brisk.",
+   "id": "brisk",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "coax",
+   "pos": "v",
+   "ipa": "/kəʊks/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To gently persuade someone to do something.",
+   "everyday": "I coaxed the cat out from under the bed.",
+   "work": "We coaxed the client into trying the new version.",
+   "synonyms": [
+    "persuade",
+    "cajole"
+   ],
+   "antonyms": [
+    "force",
+    "bully"
+   ],
+   "gap": "She ___ the shy child into joining in.",
+   "answer": "coaxed",
+   "plain": "We gently persuaded him to share his ideas.",
+   "model": "We coaxed him into sharing his ideas.",
+   "id": "coax",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "compile",
+   "pos": "v",
+   "ipa": "/kəmˈpaɪl/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To collect information and put it together.",
+   "everyday": "I compiled a playlist for the road trip.",
+   "work": "Could you compile the survey results by Friday?",
+   "synonyms": [
+    "gather",
+    "assemble"
+   ],
+   "antonyms": [
+    "scatter"
+   ],
+   "gap": "We need to ___ a list of all suppliers.",
+   "answer": "compile",
+   "plain": "Please put together a list of the risks.",
+   "model": "Please compile a list of the risks.",
+   "id": "compile",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "contemplate",
+   "pos": "v",
+   "ipa": "/ˈkɒn.təm.pleɪt/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To think carefully about something for a long time.",
+   "everyday": "I'm contemplating a career change.",
+   "work": "The board is contemplating a merger.",
+   "synonyms": [
+    "consider",
+    "ponder"
+   ],
+   "antonyms": [
+    "dismiss",
+    "ignore"
+   ],
+   "gap": "She sat by the sea, ___ her future.",
+   "answer": "contemplating",
+   "plain": "We're thinking seriously about opening a second office.",
+   "model": "We're contemplating opening a second office.",
+   "id": "contemplate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "credible",
+   "pos": "adj",
+   "ipa": "/ˈkred.ə.bəl/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Able to be believed or trusted.",
+   "everyday": "His excuse wasn't very credible.",
+   "work": "We need a credible plan to show investors.",
+   "synonyms": [
+    "believable",
+    "plausible"
+   ],
+   "antonyms": [
+    "implausible",
+    "unconvincing"
+   ],
+   "gap": "The witness gave a ___ account.",
+   "answer": "credible",
+   "plain": "We need a plan people will believe.",
+   "model": "We need a credible plan.",
+   "id": "credible",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "dwindle",
+   "pos": "v",
+   "ipa": "/ˈdwɪn.dəl/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To become gradually smaller or fewer.",
+   "everyday": "Our savings dwindled over the summer.",
+   "work": "Interest in the old product has dwindled.",
+   "synonyms": [
+    "decrease",
+    "shrink"
+   ],
+   "antonyms": [
+    "grow",
+    "increase"
+   ],
+   "gap": "The crowd began to ___ as it got dark.",
+   "answer": "dwindle",
+   "plain": "The number of users has slowly got smaller.",
+   "model": "The number of users has dwindled.",
+   "id": "dwindle",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "endeavour",
+   "pos": "n",
+   "ipa": "/ɪnˈdev.ə/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "A serious attempt to do something.",
+   "everyday": "Climbing Everest is a huge endeavour.",
+   "work": "Launching in Japan was our boldest endeavour yet.",
+   "synonyms": [
+    "effort",
+    "undertaking"
+   ],
+   "antonyms": [],
+   "gap": "Starting a business is a risky ___.",
+   "answer": "endeavour",
+   "plain": "Building the app was a big attempt for us.",
+   "model": "Building the app was a big endeavour.",
+   "id": "endeavour",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "flourish",
+   "pos": "v",
+   "ipa": "/ˈflʌr.ɪʃ/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To grow or develop well and successfully.",
+   "everyday": "The tomatoes flourished in the sun.",
+   "work": "Small businesses flourish when rents are low.",
+   "synonyms": [
+    "thrive",
+    "prosper"
+   ],
+   "antonyms": [
+    "wither",
+    "decline"
+   ],
+   "gap": "The arts ___ in the city.",
+   "answer": "flourish",
+   "plain": "The team is really doing well under her.",
+   "model": "The team is flourishing under her.",
+   "id": "flourish",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "hostile",
+   "pos": "adj",
+   "ipa": "/ˈhɒs.taɪl/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Unfriendly and aggressive.",
+   "everyday": "The cat was hostile to the new puppy.",
+   "work": "The takeover bid was hostile.",
+   "synonyms": [
+    "unfriendly",
+    "aggressive"
+   ],
+   "antonyms": [
+    "friendly",
+    "welcoming"
+   ],
+   "gap": "The crowd was ___ towards the visiting team.",
+   "answer": "hostile",
+   "plain": "The audience was unfriendly and aggressive.",
+   "model": "The audience was hostile.",
+   "id": "hostile",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "immerse",
+   "pos": "v",
+   "ipa": "/ɪˈmɜːs/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "To become completely involved in something.",
+   "everyday": "She immersed herself in her book.",
+   "work": "New starters immerse themselves in the product for a week.",
+   "synonyms": [
+    "absorb",
+    "engross"
+   ],
+   "antonyms": [],
+   "gap": "He likes to ___ himself in a new language.",
+   "answer": "immerse",
+   "plain": "She spent the week completely focused on the data.",
+   "model": "She immersed herself in the data.",
+   "id": "immerse",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "incentive",
+   "pos": "n",
+   "ipa": "/ɪnˈsen.tɪv/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Something that encourages a person to do something.",
+   "everyday": "Free biscuits are a good incentive to come to the meeting.",
+   "work": "We offer a bonus as an incentive to hit targets.",
+   "synonyms": [
+    "motivation",
+    "reward"
+   ],
+   "antonyms": [
+    "deterrent"
+   ],
+   "gap": "The discount is an ___ to buy early.",
+   "answer": "incentive",
+   "plain": "We're offering a reward to encourage people to sign up.",
+   "model": "We're offering an incentive to sign up.",
+   "id": "incentive",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "insight",
+   "pos": "n",
+   "ipa": "/ˈɪn.saɪt/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "A clear, deep understanding of something.",
+   "everyday": "The documentary gave real insight into prison life.",
+   "work": "The survey gave us useful insight into churn.",
+   "synonyms": [
+    "understanding",
+    "perception"
+   ],
+   "antonyms": [],
+   "gap": "The report offers ___ into customer habits.",
+   "answer": "insight",
+   "plain": "The interviews helped us understand users better.",
+   "model": "The interviews gave us insight into users.",
+   "id": "insight",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "lucid",
+   "pos": "adj",
+   "ipa": "/ˈluː.sɪd/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Clearly expressed and easy to understand.",
+   "everyday": "Her explanation of tax was surprisingly lucid.",
+   "work": "He gave a lucid summary of the options.",
+   "synonyms": [
+    "clear",
+    "coherent"
+   ],
+   "antonyms": [
+    "confusing",
+    "muddled"
+   ],
+   "gap": "The guide is written in ___ English.",
+   "answer": "lucid",
+   "plain": "Her explanation was very clear and easy to follow.",
+   "model": "Her explanation was lucid.",
+   "id": "lucid",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "mundane",
+   "pos": "adj",
+   "ipa": "/mʌnˈdeɪn/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Ordinary and not interesting.",
+   "everyday": "Washing up is a mundane chore.",
+   "work": "Automation takes care of the mundane tasks.",
+   "synonyms": [
+    "dull",
+    "routine"
+   ],
+   "antonyms": [
+    "exciting",
+    "remarkable"
+   ],
+   "gap": "Even ___ tasks need to be done properly.",
+   "answer": "mundane",
+   "plain": "Most of the job is boring, routine work.",
+   "model": "Most of the job is mundane.",
+   "id": "mundane",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "naive",
+   "pos": "adj",
+   "ipa": "/naɪˈiːv/",
+   "level": "intermediate",
+   "tag": "general",
+   "meaning": "Lacking experience, so too trusting.",
+   "everyday": "It was naive to think the trains would be on time.",
+   "work": "It's naive to expect no pushback on price.",
+   "synonyms": [
+    "innocent",
+    "gullible"
+   ],
+   "antonyms": [
+    "worldly",
+    "shrewd"
+   ],
+   "gap": "He was ___ to lend money to a stranger.",
+   "answer": "naive",
+   "plain": "I was too trusting to believe their promise.",
+   "model": "I was naive to believe their promise.",
+   "id": "naive",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "acumen",
+   "pos": "n",
+   "ipa": "/ˈæk.jə.mən/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "The ability to make good judgements and quick decisions.",
+   "everyday": "My gran has real acumen at car boot sales.",
+   "work": "She has strong business acumen.",
+   "synonyms": [
+    "shrewdness",
+    "insight"
+   ],
+   "antonyms": [],
+   "gap": "His business ___ made him a fortune.",
+   "answer": "acumen",
+   "plain": "She's very good at making smart business decisions.",
+   "model": "She has strong business acumen.",
+   "id": "acumen",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "allay",
+   "pos": "v",
+   "ipa": "/əˈleɪ/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To reduce someone's fear or worry.",
+   "everyday": "The vet allayed our fears about the dog.",
+   "work": "The update allayed concerns about data security.",
+   "synonyms": [
+    "ease",
+    "calm"
+   ],
+   "antonyms": [
+    "heighten",
+    "arouse"
+   ],
+   "gap": "The statement was meant to ___ public fears.",
+   "answer": "allay",
+   "plain": "We tried to calm the staff's worries.",
+   "model": "We tried to allay the staff's worries.",
+   "id": "allay",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ardent",
+   "pos": "adj",
+   "ipa": "/ˈɑː.dənt/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Very enthusiastic or passionate.",
+   "everyday": "He's an ardent fan of the band.",
+   "work": "She's an ardent supporter of flexible working.",
+   "synonyms": [
+    "passionate",
+    "fervent"
+   ],
+   "antonyms": [
+    "apathetic",
+    "indifferent"
+   ],
+   "gap": "He was an ___ admirer of her work.",
+   "answer": "ardent",
+   "plain": "She's a very passionate believer in the plan.",
+   "model": "She's an ardent believer in the plan.",
+   "id": "ardent",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "belligerent",
+   "pos": "adj",
+   "ipa": "/bəˈlɪdʒ.ər.ənt/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Hostile and ready to argue or fight.",
+   "everyday": "The man in the queue became belligerent.",
+   "work": "His belligerent tone made the negotiation harder.",
+   "synonyms": [
+    "aggressive",
+    "combative"
+   ],
+   "antonyms": [
+    "peaceable",
+    "friendly"
+   ],
+   "gap": "The ___ customer shouted at the staff.",
+   "answer": "belligerent",
+   "plain": "He was aggressive and looking for an argument.",
+   "model": "He was belligerent.",
+   "id": "belligerent",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "cajole",
+   "pos": "v",
+   "ipa": "/kəˈdʒəʊl/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To persuade someone with flattery or gentle pressure.",
+   "everyday": "She cajoled her brother into washing up.",
+   "work": "We cajoled the supplier into a faster delivery.",
+   "synonyms": [
+    "coax",
+    "wheedle"
+   ],
+   "antonyms": [
+    "force",
+    "compel"
+   ],
+   "gap": "He tried to ___ her into lending him the car.",
+   "answer": "cajole",
+   "plain": "She sweet-talked the team into working late.",
+   "model": "She cajoled the team into working late.",
+   "id": "cajole",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "callous",
+   "pos": "adj",
+   "ipa": "/ˈkæl.əs/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Showing no concern for other people's feelings.",
+   "everyday": "It was callous to laugh at his fall.",
+   "work": "The callous way they handled the layoffs hurt morale.",
+   "synonyms": [
+    "heartless",
+    "cold"
+   ],
+   "antonyms": [
+    "caring",
+    "compassionate"
+   ],
+   "gap": "His ___ remarks upset everyone.",
+   "answer": "callous",
+   "plain": "The way they treated staff was cruel and uncaring.",
+   "model": "They treated staff in a callous way.",
+   "id": "callous",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "caustic",
+   "pos": "adj",
+   "ipa": "/ˈkɔː.stɪk/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Sarcastic in a hurtful way; or able to burn through things.",
+   "everyday": "My brother made a caustic comment about my driving.",
+   "work": "Her caustic feedback demoralised the team.",
+   "synonyms": [
+    "scathing",
+    "cutting"
+   ],
+   "antonyms": [
+    "kind",
+    "mild"
+   ],
+   "gap": "The critic wrote a ___ review.",
+   "answer": "caustic",
+   "plain": "His comments were harsh and sarcastic.",
+   "model": "His comments were caustic.",
+   "id": "caustic",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "clandestine",
+   "pos": "adj",
+   "ipa": "/klænˈdes.tɪn/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Kept secret, often because it is not allowed.",
+   "everyday": "They had a clandestine meeting in the park.",
+   "work": "The rival firm held clandestine talks with our supplier.",
+   "synonyms": [
+    "secret",
+    "covert"
+   ],
+   "antonyms": [
+    "open",
+    "public"
+   ],
+   "gap": "The spies held a ___ meeting.",
+   "answer": "clandestine",
+   "plain": "They met in secret to discuss the deal.",
+   "model": "They held clandestine talks about the deal.",
+   "id": "clandestine",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "condone",
+   "pos": "v",
+   "ipa": "/kənˈdəʊn/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To accept or allow behaviour that is wrong.",
+   "everyday": "I don't condone cheating in any game.",
+   "work": "We won't condone bullying in the workplace.",
+   "synonyms": [
+    "excuse",
+    "overlook"
+   ],
+   "antonyms": [
+    "condemn",
+    "denounce"
+   ],
+   "gap": "The company does not ___ rude behaviour.",
+   "answer": "condone",
+   "plain": "We don't accept lying to customers.",
+   "model": "We don't condone lying to customers.",
+   "id": "condone",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "culpable",
+   "pos": "adj",
+   "ipa": "/ˈkʌl.pə.bəl/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Deserving blame.",
+   "everyday": "The driver was found culpable for the crash.",
+   "work": "The review found no one person culpable.",
+   "synonyms": [
+    "to blame",
+    "responsible"
+   ],
+   "antonyms": [
+    "innocent",
+    "blameless"
+   ],
+   "gap": "The inquiry found the managers ___.",
+   "answer": "culpable",
+   "plain": "The report said the supplier was to blame.",
+   "model": "The report found the supplier culpable.",
+   "id": "culpable",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "dearth",
+   "pos": "n",
+   "ipa": "/dɜːθ/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "A lack or shortage of something.",
+   "everyday": "There's a dearth of good cafés round here.",
+   "work": "There's a dearth of senior engineers in the market.",
+   "synonyms": [
+    "shortage",
+    "scarcity"
+   ],
+   "antonyms": [
+    "abundance",
+    "surplus"
+   ],
+   "gap": "There is a ___ of affordable housing.",
+   "answer": "dearth",
+   "plain": "There aren't enough skilled people.",
+   "model": "There's a dearth of skilled people.",
+   "id": "dearth",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "deride",
+   "pos": "v",
+   "ipa": "/dɪˈraɪd/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To laugh at someone or something in a way that shows no respect.",
+   "everyday": "They derided his fashion sense.",
+   "work": "Critics derided the plan as unrealistic.",
+   "synonyms": [
+    "mock",
+    "ridicule"
+   ],
+   "antonyms": [
+    "praise",
+    "respect"
+   ],
+   "gap": "Don't ___ ideas just because they're new.",
+   "answer": "deride",
+   "plain": "People made fun of the idea at first.",
+   "model": "People derided the idea at first.",
+   "id": "deride",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "diffident",
+   "pos": "adj",
+   "ipa": "/ˈdɪf.ɪ.dənt/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Shy and lacking confidence.",
+   "everyday": "He was diffident about singing in public.",
+   "work": "She's diffident in meetings but brilliant on paper.",
+   "synonyms": [
+    "shy",
+    "timid"
+   ],
+   "antonyms": [
+    "confident",
+    "assertive"
+   ],
+   "gap": "The ___ student rarely spoke in class.",
+   "answer": "diffident",
+   "plain": "He's shy and not very confident about his work.",
+   "model": "He's diffident about his work.",
+   "id": "diffident",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "dissonance",
+   "pos": "n",
+   "ipa": "/ˈdɪs.ən.əns/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "A lack of agreement or harmony between things.",
+   "everyday": "The dissonance in the music was deliberate.",
+   "work": "There's dissonance between our values and our pay policy.",
+   "synonyms": [
+    "conflict",
+    "discord"
+   ],
+   "antonyms": [
+    "harmony",
+    "agreement"
+   ],
+   "gap": "There's a ___ between what he says and what he does.",
+   "answer": "dissonance",
+   "plain": "What we say and what we do don't match.",
+   "model": "There's dissonance between what we say and do.",
+   "id": "dissonance",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "eclectic",
+   "pos": "adj",
+   "ipa": "/ɪˈklek.tɪk/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Made up of many different styles or sources.",
+   "everyday": "She has an eclectic taste in music.",
+   "work": "The team has an eclectic mix of backgrounds.",
+   "synonyms": [
+    "varied",
+    "diverse"
+   ],
+   "antonyms": [
+    "uniform",
+    "narrow"
+   ],
+   "gap": "The café has an ___ collection of chairs.",
+   "answer": "eclectic",
+   "plain": "His bookshelf has a real mix of all sorts of books.",
+   "model": "His bookshelf is eclectic.",
+   "id": "eclectic",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "churn",
+   "pos": "n",
+   "ipa": "/tʃɜːn/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "The rate at which customers stop using a product or service.",
+   "everyday": "Like a leaky bucket: you keep filling it, but water drips out the bottom.",
+   "work": "Reducing churn is cheaper than finding new customers.",
+   "synonyms": [
+    "attrition",
+    "turnover"
+   ],
+   "antonyms": [
+    "retention"
+   ],
+   "gap": "Monthly ___ rose after the price change.",
+   "answer": "churn",
+   "plain": "More customers left us after the price went up.",
+   "model": "Churn rose after the price went up.",
+   "id": "churn",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "upsell",
+   "pos": "v",
+   "ipa": "/ˌʌpˈsel/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "To persuade a customer to buy something more expensive or extra.",
+   "everyday": "The waiter tried to upsell us a bottle of champagne.",
+   "work": "We upsell premium support to larger clients.",
+   "synonyms": [
+    "cross-sell"
+   ],
+   "antonyms": [],
+   "gap": "The team tries to ___ the annual plan.",
+   "answer": "upsell",
+   "plain": "We try to get customers to buy the bigger package.",
+   "model": "We try to upsell the bigger package.",
+   "id": "upsell",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "retention",
+   "pos": "n",
+   "ipa": "/rɪˈten.ʃən/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "Keeping customers or staff over time.",
+   "everyday": "The gym's retention is poor after January.",
+   "work": "Staff retention improved after the pay review.",
+   "synonyms": [
+    "keeping",
+    "loyalty"
+   ],
+   "antonyms": [
+    "churn",
+    "attrition"
+   ],
+   "gap": "Customer ___ is our top priority this year.",
+   "answer": "retention",
+   "plain": "We want to keep more of our staff.",
+   "model": "We want to improve staff retention.",
+   "id": "retention",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "margin",
+   "pos": "n",
+   "ipa": "/ˈmɑː.dʒɪn/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "The difference between what something costs and what it sells for.",
+   "everyday": "The corner shop's margin on milk is tiny.",
+   "work": "We need to improve our margins on hardware.",
+   "synonyms": [
+    "markup",
+    "profit"
+   ],
+   "antonyms": [],
+   "gap": "Our ___ on this product is only 5%.",
+   "answer": "margin",
+   "plain": "We make very little money on each sale.",
+   "model": "Our margins are thin.",
+   "id": "margin",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "burn rate",
+   "pos": "n",
+   "ipa": "/ˈbɜːn ˌreɪt/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "How fast a company is spending its money.",
+   "everyday": "Like how quickly you're using up your holiday spending money.",
+   "work": "We need to cut our burn rate before the next round.",
+   "synonyms": [
+    "spend rate"
+   ],
+   "antonyms": [],
+   "gap": "Our monthly ___ is about £200,000.",
+   "answer": "burn rate",
+   "plain": "We're spending money too quickly.",
+   "model": "Our burn rate is too high.",
+   "id": "burn-rate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "OKR",
+   "pos": "n",
+   "ipa": "/ˌəʊ.keɪˈɑː/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "Objectives and key results: a goal plus measurable results that show progress.",
+   "everyday": "Like a holiday goal (\"get fit\") with numbers (\"run 5k by June\").",
+   "work": "Each team sets three OKRs per quarter.",
+   "synonyms": [
+    "goal",
+    "target"
+   ],
+   "antonyms": [],
+   "gap": "Our main ___ this quarter is faster onboarding.",
+   "answer": "OKR",
+   "plain": "Our main goal for this quarter, with a number to measure it, is cutting churn.",
+   "model": "Our main OKR this quarter is cutting churn.",
+   "id": "okr",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "deck",
+   "pos": "n",
+   "ipa": "/dek/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "A set of presentation slides.",
+   "everyday": "My nephew made a deck to ask for a puppy.",
+   "work": "Can you send me the deck before the meeting?",
+   "synonyms": [
+    "slides",
+    "presentation"
+   ],
+   "antonyms": [],
+   "gap": "Please share the ___ after the pitch.",
+   "answer": "deck",
+   "plain": "Send me the slides before Friday.",
+   "model": "Send me the deck before Friday.",
+   "id": "deck",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "offsite",
+   "pos": "n",
+   "ipa": "/ˌɒfˈsaɪt/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "A meeting or event held away from the usual office.",
+   "everyday": "Our book club had an offsite at a country pub.",
+   "work": "The leadership team has an offsite next month.",
+   "synonyms": [
+    "away day",
+    "retreat"
+   ],
+   "antonyms": [],
+   "gap": "The team planned the strategy at an ___ in Bath.",
+   "answer": "offsite",
+   "plain": "We're meeting away from the office to plan next year.",
+   "model": "We're having an offsite to plan next year.",
+   "id": "offsite",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "bottom line",
+   "pos": "n",
+   "ipa": "/ˌbɒt.əm ˈlaɪn/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "A company's final profit or loss; or the most important fact.",
+   "everyday": "The bottom line is we can't afford it.",
+   "work": "The new contract will help our bottom line.",
+   "synonyms": [
+    "net profit",
+    "crux"
+   ],
+   "antonyms": [],
+   "gap": "The cost cuts improved the company's ___.",
+   "answer": "bottom line",
+   "plain": "The most important point is that we need more staff.",
+   "model": "The bottom line is that we need more staff.",
+   "id": "bottom-line",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "move the needle",
+   "pos": "phr v",
+   "ipa": "/ˌmuːv ðə ˈniː.dəl/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "To make a noticeable difference.",
+   "everyday": "One salad won't move the needle on my diet.",
+   "work": "Will this feature actually move the needle on sales?",
+   "synonyms": [
+    "make a difference",
+    "have an impact"
+   ],
+   "antonyms": [],
+   "gap": "Small tweaks won't ___ on revenue.",
+   "answer": "move the needle",
+   "plain": "Will this change make a real difference?",
+   "model": "Will this change move the needle?",
+   "id": "move-the-needle",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "double down",
+   "pos": "phr v",
+   "ipa": "/ˌdʌb.əl ˈdaʊn/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "To commit even more strongly to a plan or idea.",
+   "everyday": "He doubled down on his claim that he'd seen a ghost.",
+   "work": "We're doubling down on our UK market.",
+   "synonyms": [
+    "commit further",
+    "intensify"
+   ],
+   "antonyms": [
+    "back off",
+    "retreat"
+   ],
+   "gap": "After the success, they ___ on online sales.",
+   "answer": "doubled down",
+   "plain": "We're putting even more effort into the app.",
+   "model": "We're doubling down on the app.",
+   "id": "double-down",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "push back",
+   "pos": "phr v",
+   "ipa": "/ˌpʊʃ ˈbæk/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "To resist or argue against something; or to delay it.",
+   "everyday": "The kids pushed back on an early bedtime.",
+   "work": "Don't be afraid to push back on unrealistic deadlines.",
+   "synonyms": [
+    "resist",
+    "object"
+   ],
+   "antonyms": [
+    "accept",
+    "agree"
+   ],
+   "gap": "The team ___ on the new targets.",
+   "answer": "pushed back",
+   "plain": "The engineers argued against the plan.",
+   "model": "The engineers pushed back on the plan.",
+   "id": "push-back",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "firewall",
+   "pos": "n",
+   "ipa": "/ˈfaɪə.wɔːl/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A security system that blocks unwanted traffic to a network.",
+   "everyday": "Like a bouncer on the door, checking who gets in.",
+   "work": "The firewall blocked the suspicious login.",
+   "synonyms": [
+    "security barrier"
+   ],
+   "antonyms": [],
+   "gap": "The ___ stops hackers getting into our network.",
+   "answer": "firewall",
+   "plain": "A security system blocks unwanted connections.",
+   "model": "A firewall blocks unwanted connections.",
+   "id": "firewall",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "backend",
+   "pos": "n",
+   "ipa": "/ˈbæk.end/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "The behind-the-scenes part of an app that stores data and does the work.",
+   "everyday": "Like a restaurant kitchen: diners never see it, but it makes everything.",
+   "work": "The backend team is fixing the slow searches.",
+   "synonyms": [
+    "server side"
+   ],
+   "antonyms": [
+    "frontend"
+   ],
+   "gap": "The data is stored in the ___.",
+   "answer": "backend",
+   "plain": "The part of the app users never see needs fixing.",
+   "model": "The backend needs fixing.",
+   "id": "backend",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "frontend",
+   "pos": "n",
+   "ipa": "/ˈfrʌnt.end/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "The part of an app that users see and interact with.",
+   "everyday": "Like a restaurant's dining room: what customers see and touch.",
+   "work": "The frontend got a new design this sprint.",
+   "synonyms": [
+    "user interface",
+    "client side"
+   ],
+   "antonyms": [
+    "backend"
+   ],
+   "gap": "She builds the ___ of the website.",
+   "answer": "frontend",
+   "plain": "The part of the website people see needs updating.",
+   "model": "The frontend needs updating.",
+   "id": "frontend",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "version control",
+   "pos": "n",
+   "ipa": "/ˈvɜː.ʃən kənˌtrəʊl/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A system that tracks every change to files so you can go back.",
+   "everyday": "Like \"track changes\" in a document, with a full history you can rewind.",
+   "work": "All our code is kept in version control.",
+   "synonyms": [
+    "source control",
+    "Git"
+   ],
+   "antonyms": [],
+   "gap": "Use ___ so you can undo mistakes.",
+   "answer": "version control",
+   "plain": "We keep a history of every change to the code.",
+   "model": "We use version control for the code.",
+   "id": "version-control",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "pull request",
+   "pos": "n",
+   "ipa": "/ˈpʊl rɪˌkwest/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A request to have your code changes reviewed and added to the main project.",
+   "everyday": "Like handing your essay to a teacher to check before it's pinned on the wall.",
+   "work": "Open a pull request so the team can review it.",
+   "synonyms": [
+    "merge request",
+    "PR"
+   ],
+   "antonyms": [],
+   "gap": "She opened a ___ for her bug fix.",
+   "answer": "pull request",
+   "plain": "I've asked for my code changes to be reviewed.",
+   "model": "I've opened a pull request.",
+   "id": "pull-request",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "staging",
+   "pos": "n",
+   "ipa": "/ˈsteɪ.dʒɪŋ/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A copy of the live system used for final testing.",
+   "everyday": "Like a dress rehearsal before opening night.",
+   "work": "Test it on staging before it goes live.",
+   "synonyms": [
+    "pre-production",
+    "test environment"
+   ],
+   "antonyms": [
+    "production"
+   ],
+   "gap": "Always test on ___ before releasing.",
+   "answer": "staging",
+   "plain": "Check it on the test copy of the site first.",
+   "model": "Check it on staging first.",
+   "id": "staging",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "query",
+   "pos": "n",
+   "ipa": "/ˈkwɪə.ri/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A request for data from a database; or a question.",
+   "everyday": "Like asking a librarian for every book by one author.",
+   "work": "This query takes ten seconds to run.",
+   "synonyms": [
+    "request",
+    "question"
+   ],
+   "antonyms": [],
+   "gap": "The database ___ returned 300 results.",
+   "answer": "query",
+   "plain": "The request for data is too slow.",
+   "model": "The query is too slow.",
+   "id": "query",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "endpoint",
+   "pos": "n",
+   "ipa": "/ˈend.pɔɪnt/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A specific address where an app can send requests to another system.",
+   "everyday": "Like a particular counter at the post office for a particular job.",
+   "work": "Call the orders endpoint to get the latest orders.",
+   "synonyms": [
+    "URL",
+    "route"
+   ],
+   "antonyms": [],
+   "gap": "Send the data to the payments ___.",
+   "answer": "endpoint",
+   "plain": "Send the request to the address for customer data.",
+   "model": "Send the request to the customers endpoint.",
+   "id": "endpoint",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "migration",
+   "pos": "n",
+   "ipa": "/maɪˈɡreɪ.ʃən/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "Moving data or systems from one place or format to another.",
+   "everyday": "Like moving house: pack everything, move it, unpack it in the new place.",
+   "work": "The database migration runs this weekend.",
+   "synonyms": [
+    "move",
+    "transfer"
+   ],
+   "antonyms": [],
+   "gap": "The cloud ___ took six months.",
+   "answer": "migration",
+   "plain": "We're moving all our data to the new system.",
+   "model": "We're doing a data migration to the new system.",
+   "id": "migration",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "multi-factor authentication",
+   "pos": "n",
+   "ipa": "/ˌmʌl.ti ˌfæk.tər ɔːˌθen.tɪˈkeɪ.ʃən/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "Logging in with two or more proofs, such as a password and a phone code.",
+   "everyday": "Like needing both a key and a PIN to open a safe.",
+   "work": "Turn on multi-factor authentication for all accounts.",
+   "synonyms": [
+    "MFA",
+    "two-factor"
+   ],
+   "antonyms": [],
+   "gap": "___ makes accounts much harder to hack.",
+   "answer": "Multi-factor authentication",
+   "plain": "You need your password and a code from your phone to log in.",
+   "model": "You log in with multi-factor authentication.",
+   "id": "multi-factor-authentication",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "cron job",
+   "pos": "n",
+   "ipa": "/ˈkrɒn ˌdʒɒb/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "A task a computer runs automatically on a schedule.",
+   "everyday": "Like setting the oven timer to switch on at 6 every evening.",
+   "work": "A cron job sends the reports every Monday.",
+   "synonyms": [
+    "scheduled task"
+   ],
+   "antonyms": [],
+   "gap": "A ___ backs up the database every night.",
+   "answer": "cron job",
+   "plain": "A task runs automatically every night to clean up files.",
+   "model": "A cron job cleans up files every night.",
+   "id": "cron-job",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "throughput",
+   "pos": "n",
+   "ipa": "/ˈθruː.pʊt/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "How much work a system can handle in a set time.",
+   "everyday": "Like how many cars a toll booth can let through per hour.",
+   "work": "The new servers doubled our throughput.",
+   "synonyms": [
+    "capacity",
+    "output"
+   ],
+   "antonyms": [],
+   "gap": "We need higher ___ to handle the Black Friday orders.",
+   "answer": "throughput",
+   "plain": "The system can now handle twice as many orders an hour.",
+   "model": "The system's throughput has doubled.",
+   "id": "throughput",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "perspicacious",
+   "pos": "adj",
+   "ipa": "/ˌpɜː.spɪˈkeɪ.ʃəs/",
+   "level": "advanced",
+   "tag": "general",
+   "meaning": "Quick to notice and understand things.",
+   "everyday": "My perspicacious aunt spotted the fake handbag at once.",
+   "work": "A perspicacious analyst spotted the trend early.",
+   "synonyms": [
+    "perceptive",
+    "astute"
+   ],
+   "antonyms": [
+    "obtuse",
+    "dull"
+   ],
+   "gap": "A ___ reader will notice the clue.",
+   "answer": "perspicacious",
+   "plain": "She noticed the problem quickly and understood it.",
+   "model": "She was perspicacious enough to spot the problem.",
+   "id": "perspicacious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "sanguine",
+   "pos": "adj",
+   "ipa": "/ˈsæŋ.ɡwɪn/",
+   "level": "advanced",
+   "tag": "general",
+   "meaning": "Cheerful and hopeful, especially in a difficult situation.",
+   "everyday": "He's sanguine about his chances in the race.",
+   "work": "The CFO is sanguine about next year's numbers.",
+   "synonyms": [
+    "optimistic",
+    "upbeat"
+   ],
+   "antonyms": [
+    "pessimistic",
+    "gloomy"
+   ],
+   "gap": "She remained ___ despite the setback.",
+   "answer": "sanguine",
+   "plain": "He's hopeful that the deal will go through.",
+   "model": "He's sanguine about the deal.",
+   "id": "sanguine",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "verisimilitude",
+   "pos": "n",
+   "ipa": "/ˌver.ɪ.sɪˈmɪl.ɪ.tjuːd/",
+   "level": "advanced",
+   "tag": "general",
+   "meaning": "The appearance of being true or real.",
+   "everyday": "The film's verisimilitude made it feel like a documentary.",
+   "work": "Real customer quotes add verisimilitude to the case study.",
+   "synonyms": [
+    "realism",
+    "authenticity"
+   ],
+   "antonyms": [
+    "implausibility"
+   ],
+   "gap": "The detailed costumes added ___ to the play.",
+   "answer": "verisimilitude",
+   "plain": "Real photos make the story seem more true to life.",
+   "model": "Real photos add verisimilitude to the story.",
+   "id": "verisimilitude",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "inimical",
+   "pos": "adj",
+   "ipa": "/ɪˈnɪm.ɪ.kəl/",
+   "level": "advanced",
+   "tag": "general",
+   "meaning": "Harmful or hostile to something.",
+   "everyday": "Late nights are inimical to good sleep.",
+   "work": "Constant meetings are inimical to deep work.",
+   "synonyms": [
+    "harmful",
+    "detrimental"
+   ],
+   "antonyms": [
+    "favourable",
+    "beneficial"
+   ],
+   "gap": "High taxes can be ___ to growth.",
+   "answer": "inimical",
+   "plain": "Too many rules are harmful to new ideas.",
+   "model": "Too many rules are inimical to new ideas.",
+   "id": "inimical",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ineffable",
+   "pos": "adj",
+   "ipa": "/ɪˈnef.ə.bəl/",
+   "level": "advanced",
+   "tag": "general",
+   "meaning": "Too great or extreme to be described in words.",
+   "everyday": "The view from the summit was ineffable.",
+   "work": "There's an ineffable quality to great design.",
+   "synonyms": [
+    "indescribable",
+    "inexpressible"
+   ],
+   "antonyms": [
+    "describable"
+   ],
+   "gap": "She felt an ___ joy holding her baby.",
+   "answer": "ineffable",
+   "plain": "The feeling was too great to describe.",
+   "model": "The feeling was ineffable.",
+   "id": "ineffable",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "exculpate",
+   "pos": "v",
+   "ipa": "/ˈek.skʌl.peɪt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "To show that someone is not guilty.",
+   "everyday": "The new evidence exculpated the suspect.",
+   "work": "The audit exculpated the finance team.",
+   "synonyms": [
+    "clear",
+    "exonerate"
+   ],
+   "antonyms": [
+    "incriminate",
+    "blame"
+   ],
+   "gap": "The video ___ the driver completely.",
+   "answer": "exculpated",
+   "plain": "The report showed the manager wasn't to blame.",
+   "model": "The report exculpated the manager.",
+   "id": "exculpate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "expedient",
+   "pos": "adj",
+   "ipa": "/ɪkˈspiː.di.ənt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Useful for a purpose, though perhaps not fair or right.",
+   "everyday": "It was expedient to agree with him and go home.",
+   "work": "Cutting testing was expedient but risky.",
+   "synonyms": [
+    "convenient",
+    "pragmatic"
+   ],
+   "antonyms": [
+    "inexpedient",
+    "principled"
+   ],
+   "gap": "It was ___ to delay the announcement.",
+   "answer": "expedient",
+   "plain": "It was convenient, if not right, to blame the supplier.",
+   "model": "It was expedient to blame the supplier.",
+   "id": "expedient",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "extol",
+   "pos": "v",
+   "ipa": "/ɪkˈstəʊl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "To praise something enthusiastically.",
+   "everyday": "She extols the benefits of cold showers.",
+   "work": "The CEO extolled the team's work at the all-hands.",
+   "synonyms": [
+    "praise",
+    "laud"
+   ],
+   "antonyms": [
+    "criticise",
+    "disparage"
+   ],
+   "gap": "He never stops ___ the virtues of cycling.",
+   "answer": "extolling",
+   "plain": "She talked with great praise about the new tool.",
+   "model": "She extolled the new tool.",
+   "id": "extol",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "fallacious",
+   "pos": "adj",
+   "ipa": "/fəˈleɪ.ʃəs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Based on a mistaken belief or bad reasoning.",
+   "everyday": "The idea that bats are blind is fallacious.",
+   "work": "The argument was fallacious; the data didn't support it.",
+   "synonyms": [
+    "false",
+    "flawed"
+   ],
+   "antonyms": [
+    "valid",
+    "sound"
+   ],
+   "gap": "That conclusion is ___; it ignores half the data.",
+   "answer": "fallacious",
+   "plain": "His reasoning was wrong and misleading.",
+   "model": "His reasoning was fallacious.",
+   "id": "fallacious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "fatuous",
+   "pos": "adj",
+   "ipa": "/ˈfætʃ.u.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Silly and pointless.",
+   "everyday": "He made a fatuous remark about the weather.",
+   "work": "It was a fatuous question that wasted everyone's time.",
+   "synonyms": [
+    "silly",
+    "inane"
+   ],
+   "antonyms": [
+    "sensible",
+    "intelligent"
+   ],
+   "gap": "She ignored his ___ comments.",
+   "answer": "fatuous",
+   "plain": "That was a silly, pointless thing to say.",
+   "model": "That was a fatuous thing to say.",
+   "id": "fatuous",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "feckless",
+   "pos": "adj",
+   "ipa": "/ˈfek.ləs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Lacking energy, ability or a sense of responsibility.",
+   "everyday": "Her feckless brother lost another job.",
+   "work": "The feckless approach to security led to the breach.",
+   "synonyms": [
+    "useless",
+    "irresponsible"
+   ],
+   "antonyms": [
+    "responsible",
+    "capable"
+   ],
+   "gap": "The ___ manager never finished anything.",
+   "answer": "feckless",
+   "plain": "He's irresponsible and never gets anything done.",
+   "model": "He's feckless.",
+   "id": "feckless",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "gainsay",
+   "pos": "v",
+   "ipa": "/ˌɡeɪnˈseɪ/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "To deny or contradict something.",
+   "everyday": "Nobody could gainsay her cooking skills.",
+   "work": "The data is hard to gainsay.",
+   "synonyms": [
+    "deny",
+    "dispute"
+   ],
+   "antonyms": [
+    "confirm",
+    "support"
+   ],
+   "gap": "There's no ___ing the results.",
+   "answer": "gainsay",
+   "plain": "No one can argue against his experience.",
+   "model": "No one can gainsay his experience.",
+   "id": "gainsay",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "impecunious",
+   "pos": "adj",
+   "ipa": "/ˌɪm.pɪˈkjuː.ni.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Having very little money.",
+   "everyday": "As an impecunious student, he lived on toast.",
+   "work": "The charity relies on impecunious volunteers.",
+   "synonyms": [
+    "poor",
+    "penniless"
+   ],
+   "antonyms": [
+    "wealthy",
+    "affluent"
+   ],
+   "gap": "The ___ artist sold paintings to pay rent.",
+   "answer": "impecunious",
+   "plain": "The start-up had very little money in its first year.",
+   "model": "The start-up was impecunious in its first year.",
+   "id": "impecunious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "implacable",
+   "pos": "adj",
+   "ipa": "/ɪmˈplæk.ə.bəl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Impossible to calm or satisfy; unstoppable.",
+   "everyday": "She was an implacable opponent of the new road.",
+   "work": "We face an implacable competitor on price.",
+   "synonyms": [
+    "relentless",
+    "unyielding"
+   ],
+   "antonyms": [
+    "yielding",
+    "appeasable"
+   ],
+   "gap": "The union was ___ in its demands.",
+   "answer": "implacable",
+   "plain": "He refused to be calmed down, whatever we offered.",
+   "model": "He was implacable.",
+   "id": "implacable",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "inchoate",
+   "pos": "adj",
+   "ipa": "/ɪnˈkəʊ.ət/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Just beginning and not yet fully formed.",
+   "everyday": "My plans for the garden are still inchoate.",
+   "work": "The strategy is inchoate; we need more detail.",
+   "synonyms": [
+    "undeveloped",
+    "embryonic"
+   ],
+   "antonyms": [
+    "developed",
+    "mature"
+   ],
+   "gap": "Her ideas were still ___.",
+   "answer": "inchoate",
+   "plain": "The plan is still at a very early, unformed stage.",
+   "model": "The plan is still inchoate.",
+   "id": "inchoate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "indefatigable",
+   "pos": "adj",
+   "ipa": "/ˌɪn.dɪˈfæt.ɪ.ɡə.bəl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Never seeming to get tired.",
+   "everyday": "The indefatigable toddler ran around all day.",
+   "work": "Her indefatigable energy kept the project going.",
+   "synonyms": [
+    "tireless",
+    "untiring"
+   ],
+   "antonyms": [
+    "lazy",
+    "lethargic"
+   ],
+   "gap": "He was an ___ campaigner for clean air.",
+   "answer": "indefatigable",
+   "plain": "She never seems to get tired.",
+   "model": "She's indefatigable.",
+   "id": "indefatigable",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "ingenuous",
+   "pos": "adj",
+   "ipa": "/ɪnˈdʒen.ju.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Innocent, honest and too trusting.",
+   "everyday": "His ingenuous smile made us trust him.",
+   "work": "It was ingenuous to believe the vendor's claims.",
+   "synonyms": [
+    "naive",
+    "artless"
+   ],
+   "antonyms": [
+    "cunning",
+    "disingenuous"
+   ],
+   "gap": "Her ___ question made the room laugh.",
+   "answer": "ingenuous",
+   "plain": "It was innocent and too trusting of him to believe them.",
+   "model": "It was ingenuous of him to believe them.",
+   "id": "ingenuous",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "insouciant",
+   "pos": "adj",
+   "ipa": "/ɪnˈsuː.si.ənt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Relaxed and not worried.",
+   "everyday": "He gave an insouciant shrug when he missed the bus.",
+   "work": "Her insouciant attitude to deadlines worries me.",
+   "synonyms": [
+    "nonchalant",
+    "carefree"
+   ],
+   "antonyms": [
+    "anxious",
+    "concerned"
+   ],
+   "gap": "He was ___ about the exam results.",
+   "answer": "insouciant",
+   "plain": "She seemed totally relaxed and unbothered about the audit.",
+   "model": "She seemed insouciant about the audit.",
+   "id": "insouciant",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "intrepid",
+   "pos": "adj",
+   "ipa": "/ɪnˈtrep.ɪd/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Fearless and adventurous.",
+   "everyday": "The intrepid explorers crossed the desert.",
+   "work": "Our intrepid sales team opened three new markets.",
+   "synonyms": [
+    "fearless",
+    "bold"
+   ],
+   "antonyms": [
+    "timid",
+    "cowardly"
+   ],
+   "gap": "The ___ reporter went into the war zone.",
+   "answer": "intrepid",
+   "plain": "The brave, adventurous team tried a new market.",
+   "model": "The intrepid team tried a new market.",
+   "id": "intrepid",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "inveterate",
+   "pos": "adj",
+   "ipa": "/ɪnˈvet.ər.ət/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Having a habit that is unlikely to change.",
+   "everyday": "He's an inveterate gambler.",
+   "work": "She's an inveterate optimist about deadlines.",
+   "synonyms": [
+    "habitual",
+    "confirmed"
+   ],
+   "antonyms": [
+    "occasional"
+   ],
+   "gap": "My uncle is an ___ storyteller.",
+   "answer": "inveterate",
+   "plain": "He's someone who always lies and won't stop.",
+   "model": "He's an inveterate liar.",
+   "id": "inveterate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "irascible",
+   "pos": "adj",
+   "ipa": "/ɪˈræs.ə.bəl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Easily made angry.",
+   "everyday": "The irascible old man shouted at the kids.",
+   "work": "An irascible manager makes people afraid to speak up.",
+   "synonyms": [
+    "irritable",
+    "short-tempered"
+   ],
+   "antonyms": [
+    "calm",
+    "good-natured"
+   ],
+   "gap": "The ___ chef threw a pan across the kitchen.",
+   "answer": "irascible",
+   "plain": "Our neighbour gets angry very easily.",
+   "model": "Our neighbour is irascible.",
+   "id": "irascible",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "loquacious",
+   "pos": "adj",
+   "ipa": "/ləˈkweɪ.ʃəs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Talking a lot.",
+   "everyday": "Our loquacious taxi driver told us his life story.",
+   "work": "The loquacious presenter ran over time.",
+   "synonyms": [
+    "talkative",
+    "chatty"
+   ],
+   "antonyms": [
+    "taciturn",
+    "reticent"
+   ],
+   "gap": "He's ___ after a couple of drinks.",
+   "answer": "loquacious",
+   "plain": "She talks a lot in meetings.",
+   "model": "She's loquacious in meetings.",
+   "id": "loquacious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "lugubrious",
+   "pos": "adj",
+   "ipa": "/luːˈɡuː.bri.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Looking or sounding sad and gloomy.",
+   "everyday": "The dog gave me a lugubrious look.",
+   "work": "His lugubrious tone dampened the mood.",
+   "synonyms": [
+    "mournful",
+    "doleful"
+   ],
+   "antonyms": [
+    "cheerful",
+    "jolly"
+   ],
+   "gap": "The film's ___ music made everyone sad.",
+   "answer": "lugubrious",
+   "plain": "He spoke in a sad, gloomy way about the results.",
+   "model": "He spoke in a lugubrious way about the results.",
+   "id": "lugubrious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "malleable",
+   "pos": "adj",
+   "ipa": "/ˈmæl.i.ə.bəl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Easily shaped or influenced.",
+   "everyday": "Gold is a malleable metal.",
+   "work": "Early-stage plans are malleable, so give feedback now.",
+   "synonyms": [
+    "pliable",
+    "flexible"
+   ],
+   "antonyms": [
+    "rigid",
+    "inflexible"
+   ],
+   "gap": "Young minds are very ___.",
+   "answer": "malleable",
+   "plain": "The plan can still be changed easily.",
+   "model": "The plan is still malleable.",
+   "id": "malleable",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "mendacious",
+   "pos": "adj",
+   "ipa": "/menˈdeɪ.ʃəs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Not telling the truth.",
+   "everyday": "The mendacious salesman lied about the car's mileage.",
+   "work": "The report was mendacious and misled investors.",
+   "synonyms": [
+    "lying",
+    "dishonest"
+   ],
+   "antonyms": [
+    "truthful",
+    "honest"
+   ],
+   "gap": "The ___ advert made false claims.",
+   "answer": "mendacious",
+   "plain": "The statement wasn't true and was meant to mislead.",
+   "model": "The statement was mendacious.",
+   "id": "mendacious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "mercurial",
+   "pos": "adj",
+   "ipa": "/mɜːˈkjʊə.ri.əl/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Changing mood or mind suddenly and often.",
+   "everyday": "My mercurial cat purrs, then bites.",
+   "work": "Her mercurial leadership style keeps everyone on edge.",
+   "synonyms": [
+    "volatile",
+    "unpredictable"
+   ],
+   "antonyms": [
+    "stable",
+    "steady"
+   ],
+   "gap": "The ___ star cancelled the tour.",
+   "answer": "mercurial",
+   "plain": "His moods change suddenly and often.",
+   "model": "He's mercurial.",
+   "id": "mercurial",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "munificent",
+   "pos": "adj",
+   "ipa": "/mjuːˈnɪf.ɪ.sənt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Very generous.",
+   "everyday": "A munificent donor paid for the new library.",
+   "work": "The firm made a munificent gift to the hospital.",
+   "synonyms": [
+    "generous",
+    "lavish"
+   ],
+   "antonyms": [
+    "stingy",
+    "miserly"
+   ],
+   "gap": "Thanks to a ___ sponsor, entry was free.",
+   "answer": "munificent",
+   "plain": "The founder gave a very generous donation.",
+   "model": "The founder made a munificent donation.",
+   "id": "munificent",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "nefarious",
+   "pos": "adj",
+   "ipa": "/nɪˈfeə.ri.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Wicked or criminal.",
+   "everyday": "The villain had a nefarious plan.",
+   "work": "The hackers had nefarious motives.",
+   "synonyms": [
+    "wicked",
+    "villainous"
+   ],
+   "antonyms": [
+    "virtuous",
+    "honourable"
+   ],
+   "gap": "The gang was involved in ___ activities.",
+   "answer": "nefarious",
+   "plain": "They used our data for wicked, criminal purposes.",
+   "model": "They used our data for nefarious purposes.",
+   "id": "nefarious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "obsequious",
+   "pos": "adj",
+   "ipa": "/əbˈsiː.kwi.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Too eager to please or obey.",
+   "everyday": "The obsequious waiter kept refilling our glasses.",
+   "work": "His obsequious emails to the CEO embarrassed the team.",
+   "synonyms": [
+    "fawning",
+    "servile"
+   ],
+   "antonyms": [
+    "assertive",
+    "independent"
+   ],
+   "gap": "She found his ___ manner irritating.",
+   "answer": "obsequious",
+   "plain": "He's always trying too hard to please the boss.",
+   "model": "He's obsequious towards the boss.",
+   "id": "obsequious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "onerous",
+   "pos": "adj",
+   "ipa": "/ˈəʊ.nər.əs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Involving a lot of effort or difficulty.",
+   "everyday": "Caring for three dogs is onerous.",
+   "work": "The reporting requirements are onerous for small firms.",
+   "synonyms": [
+    "burdensome",
+    "demanding"
+   ],
+   "antonyms": [
+    "easy",
+    "light"
+   ],
+   "gap": "The new rules are ___ for small businesses.",
+   "answer": "onerous",
+   "plain": "The paperwork is a heavy burden.",
+   "model": "The paperwork is onerous.",
+   "id": "onerous",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "opprobrium",
+   "pos": "n",
+   "ipa": "/əˈprəʊ.bri.əm/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Harsh public criticism.",
+   "everyday": "The decision drew public opprobrium.",
+   "work": "The bank faced opprobrium over its bonuses.",
+   "synonyms": [
+    "condemnation",
+    "disgrace"
+   ],
+   "antonyms": [
+    "praise",
+    "approval"
+   ],
+   "gap": "The minister faced ___ for his comments.",
+   "answer": "opprobrium",
+   "plain": "The company was strongly criticised by the public.",
+   "model": "The company faced public opprobrium.",
+   "id": "opprobrium",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "paucity",
+   "pos": "n",
+   "ipa": "/ˈpɔː.sə.ti/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "The state of there being too little of something.",
+   "everyday": "There's a paucity of parking near the stadium.",
+   "work": "The paucity of data makes forecasting hard.",
+   "synonyms": [
+    "scarcity",
+    "shortage"
+   ],
+   "antonyms": [
+    "abundance",
+    "plenty"
+   ],
+   "gap": "The ___ of evidence led to the case being dropped.",
+   "answer": "paucity",
+   "plain": "There isn't much good research on this.",
+   "model": "There's a paucity of research on this.",
+   "id": "paucity",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "pedantic",
+   "pos": "adj",
+   "ipa": "/pɪˈdæn.tɪk/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Too concerned with minor details or rules.",
+   "everyday": "Don't be pedantic about my spelling in a text.",
+   "work": "His pedantic edits slowed the report down.",
+   "synonyms": [
+    "nit-picking",
+    "fussy"
+   ],
+   "antonyms": [
+    "relaxed",
+    "broad-minded"
+   ],
+   "gap": "He's so ___ about grammar.",
+   "answer": "pedantic",
+   "plain": "She's too fussy about tiny details.",
+   "model": "She's pedantic.",
+   "id": "pedantic",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "phlegmatic",
+   "pos": "adj",
+   "ipa": "/fleɡˈmæt.ɪk/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Calm and not easily excited or upset.",
+   "everyday": "Our phlegmatic dad didn't flinch at the flat tyre.",
+   "work": "The phlegmatic CFO kept the room calm.",
+   "synonyms": [
+    "unflappable",
+    "composed"
+   ],
+   "antonyms": [
+    "excitable",
+    "emotional"
+   ],
+   "gap": "He took the bad news in his usual ___ way.",
+   "answer": "phlegmatic",
+   "plain": "She stayed calm and unbothered during the crisis.",
+   "model": "She was phlegmatic during the crisis.",
+   "id": "phlegmatic",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "platitude",
+   "pos": "n",
+   "ipa": "/ˈplæt.ɪ.tjuːd/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "A remark used so often it has no real meaning.",
+   "everyday": "\"Everything happens for a reason\" is a platitude.",
+   "work": "The speech was full of platitudes about teamwork.",
+   "synonyms": [
+    "cliché",
+    "truism"
+   ],
+   "antonyms": [],
+   "gap": "He offered a ___ instead of real advice.",
+   "answer": "platitude",
+   "plain": "He just said something obvious and empty.",
+   "model": "He just offered a platitude.",
+   "id": "platitude",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "prevaricate",
+   "pos": "v",
+   "ipa": "/prɪˈvær.ɪ.keɪt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "To avoid giving a direct answer.",
+   "everyday": "Stop prevaricating and tell me where you were.",
+   "work": "The supplier prevaricated about delivery dates.",
+   "synonyms": [
+    "equivocate",
+    "dodge"
+   ],
+   "antonyms": [
+    "be direct"
+   ],
+   "gap": "The minister continued to ___ when asked about costs.",
+   "answer": "prevaricate",
+   "plain": "He avoided giving a straight answer about the budget.",
+   "model": "He prevaricated about the budget.",
+   "id": "prevaricate",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "quixotic",
+   "pos": "adj",
+   "ipa": "/kwɪkˈsɒt.ɪk/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Hopeful and noble but unrealistic.",
+   "everyday": "His quixotic plan to sail the world in a rowing boat failed.",
+   "work": "Building everything in-house is quixotic.",
+   "synonyms": [
+    "idealistic",
+    "impractical"
+   ],
+   "antonyms": [
+    "realistic",
+    "pragmatic"
+   ],
+   "gap": "It's a ___ attempt to end all paperwork.",
+   "answer": "quixotic",
+   "plain": "The plan is idealistic but not realistic.",
+   "model": "The plan is quixotic.",
+   "id": "quixotic",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "reticent",
+   "pos": "adj",
+   "ipa": "/ˈret.ɪ.sənt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Unwilling to share thoughts or feelings.",
+   "everyday": "He's reticent about his past.",
+   "work": "The CEO was reticent about the merger talks.",
+   "synonyms": [
+    "reserved",
+    "tight-lipped"
+   ],
+   "antonyms": [
+    "forthcoming",
+    "open"
+   ],
+   "gap": "She was ___ about her plans.",
+   "answer": "reticent",
+   "plain": "He doesn't like talking about his salary.",
+   "model": "He's reticent about his salary.",
+   "id": "reticent",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "sagacious",
+   "pos": "adj",
+   "ipa": "/səˈɡeɪ.ʃəs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Wise and showing good judgement.",
+   "everyday": "My sagacious grandmother gives the best advice.",
+   "work": "A sagacious investor avoided the crash.",
+   "synonyms": [
+    "wise",
+    "shrewd"
+   ],
+   "antonyms": [
+    "foolish",
+    "unwise"
+   ],
+   "gap": "The ___ judge saw through the lie.",
+   "answer": "sagacious",
+   "plain": "She's wise and makes good decisions.",
+   "model": "She's sagacious.",
+   "id": "sagacious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "specious",
+   "pos": "adj",
+   "ipa": "/ˈspiː.ʃəs/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Seeming right or true, but actually wrong.",
+   "everyday": "His excuse was specious.",
+   "work": "The specious argument hid a flaw in the numbers.",
+   "synonyms": [
+    "misleading",
+    "plausible but wrong"
+   ],
+   "antonyms": [
+    "valid",
+    "genuine"
+   ],
+   "gap": "The claim sounds right but is ___.",
+   "answer": "specious",
+   "plain": "The argument sounds good but is actually wrong.",
+   "model": "The argument is specious.",
+   "id": "specious",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "network effects",
+   "pos": "n",
+   "ipa": "/ˈnet.wɜːk ɪˌfekts/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When a product becomes more valuable as more people use it.",
+   "everyday": "A phone is useless if nobody else has one; it gets better as friends join.",
+   "work": "Marketplaces grow through network effects.",
+   "synonyms": [
+    "virtuous circle"
+   ],
+   "antonyms": [],
+   "gap": "Social apps rely on ___ to grow.",
+   "answer": "network effects",
+   "plain": "The app gets more useful as more people join.",
+   "model": "The app benefits from network effects.",
+   "id": "network-effects",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "switching costs",
+   "pos": "n",
+   "ipa": "/ˈswɪtʃ.ɪŋ ˌkɒsts/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "The cost or effort of changing from one supplier to another.",
+   "everyday": "Changing banks means updating every direct debit.",
+   "work": "High switching costs keep clients loyal.",
+   "synonyms": [
+    "lock-in"
+   ],
+   "antonyms": [],
+   "gap": "Customers stay because the ___ are high.",
+   "answer": "switching costs",
+   "plain": "It's a big hassle for clients to move to a competitor.",
+   "model": "Clients face high switching costs.",
+   "id": "switching-costs",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "total addressable market",
+   "pos": "n",
+   "ipa": "/ˌtəʊ.təl əˌdres.ə.bəl ˈmɑː.kɪt/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "The total demand for a product if you won every possible customer.",
+   "everyday": "Every family in town is the total market for the only bakery.",
+   "work": "The total addressable market for pet insurance is huge.",
+   "synonyms": [
+    "TAM",
+    "market size"
+   ],
+   "antonyms": [],
+   "gap": "Investors asked about the ___.",
+   "answer": "total addressable market",
+   "plain": "If we sold to every possible customer, how big would sales be?",
+   "model": "What's our total addressable market?",
+   "id": "total-addressable-market",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "operating leverage",
+   "pos": "n",
+   "ipa": "/ˈɒp.ər.eɪ.tɪŋ ˌliː.vər.ɪdʒ/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When most costs are fixed, so profits grow faster than sales.",
+   "everyday": "A cinema costs the same to run whether 10 or 100 people come.",
+   "work": "Software has high operating leverage.",
+   "synonyms": [
+    "fixed-cost scaling"
+   ],
+   "antonyms": [],
+   "gap": "With high ___, extra sales are mostly profit.",
+   "answer": "operating leverage",
+   "plain": "Our costs stay the same as we grow, so profit grows faster.",
+   "model": "We benefit from operating leverage.",
+   "id": "operating-leverage",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "vertical integration",
+   "pos": "n",
+   "ipa": "/ˌvɜː.tɪ.kəl ˌɪn.tɪˈɡreɪ.ʃən/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When a company owns several stages of making and selling its product.",
+   "everyday": "A farm that bakes and sells its own bread.",
+   "work": "Their vertical integration gives them control of the supply chain.",
+   "synonyms": [
+    "consolidation"
+   ],
+   "antonyms": [
+    "outsourcing"
+   ],
+   "gap": "The carmaker pursued ___ by buying a battery maker.",
+   "answer": "vertical integration",
+   "plain": "They own everything from the factory to the shops.",
+   "model": "They have full vertical integration.",
+   "id": "vertical-integration",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "commoditisation",
+   "pos": "n",
+   "ipa": "/kəˌmɒd.ɪ.taɪˈzeɪ.ʃən/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When products become so similar that customers choose only on price.",
+   "everyday": "Petrol is the same everywhere, so you buy the cheapest.",
+   "work": "Cloud storage has gone through commoditisation.",
+   "synonyms": [
+    "standardisation"
+   ],
+   "antonyms": [
+    "differentiation"
+   ],
+   "gap": "___ has pushed prices down across the industry.",
+   "answer": "Commoditisation",
+   "plain": "All the products are now the same, so only price matters.",
+   "model": "The market has suffered commoditisation.",
+   "id": "commoditisation",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "product-market fit",
+   "pos": "n",
+   "ipa": "/ˌprɒd.ʌkt ˌmɑː.kɪt ˈfɪt/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When a product clearly meets a real need that enough customers will pay for.",
+   "everyday": "Like a key that fits a lock perfectly.",
+   "work": "We'll scale sales once we find product-market fit.",
+   "synonyms": [
+    "traction"
+   ],
+   "antonyms": [],
+   "gap": "Don't hire salespeople before you have ___.",
+   "answer": "product-market fit",
+   "plain": "Customers really want this and keep coming back.",
+   "model": "We have product-market fit.",
+   "id": "product-market-fit",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "regulatory capture",
+   "pos": "n",
+   "ipa": "/ˌreɡ.jə.lə.tər.i ˈkæp.tʃə/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "When a regulator ends up serving the industry it is meant to control.",
+   "everyday": "Like a referee who starts working for one of the teams.",
+   "work": "Critics warned of regulatory capture in the energy sector.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "The scandal raised fears of ___.",
+   "answer": "regulatory capture",
+   "plain": "The watchdog seems to work for the firms it oversees.",
+   "model": "The watchdog shows signs of regulatory capture.",
+   "id": "regulatory-capture",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "hockey stick",
+   "pos": "n",
+   "ipa": "/ˈhɒk.i ˌstɪk/",
+   "level": "advanced",
+   "tag": "exec",
+   "meaning": "A growth curve that is flat for a while and then rises sharply.",
+   "everyday": "My son's height chart: years of slow growth, then a sudden spurt.",
+   "work": "Every pitch deck shows a hockey stick forecast.",
+   "synonyms": [
+    "exponential growth"
+   ],
+   "antonyms": [
+    "plateau"
+   ],
+   "gap": "The forecast shows a ___ in year three.",
+   "answer": "hockey stick",
+   "plain": "Sales were flat, then suddenly shot up.",
+   "model": "Sales grew in a hockey stick.",
+   "id": "hockey-stick",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "distillation",
+   "pos": "n",
+   "ipa": "/ˌdɪs.tɪˈleɪ.ʃən/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "Training a small AI model to copy a larger one, so it is cheaper to run.",
+   "everyday": "Like an apprentice learning a master chef's dishes so they can run a smaller kitchen.",
+   "work": "Distillation gave us a model fast enough for phones.",
+   "synonyms": [
+    "model compression"
+   ],
+   "antonyms": [],
+   "gap": "We used ___ to make a lighter version of the model.",
+   "answer": "distillation",
+   "plain": "We trained a small model to copy the big one.",
+   "model": "We used distillation to create a small model.",
+   "id": "distillation",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "temperature",
+   "pos": "n",
+   "ipa": "/ˈtem.prə.tʃə/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "A setting that controls how random or creative an AI's answers are.",
+   "everyday": "Like a dial on a cook's adventurousness: low follows the recipe, high improvises.",
+   "work": "Set a low temperature for consistent answers.",
+   "synonyms": [
+    "randomness"
+   ],
+   "antonyms": [],
+   "gap": "Raise the ___ if you want more creative ideas.",
+   "answer": "temperature",
+   "plain": "Turn down the setting that makes the AI's answers random.",
+   "model": "Lower the temperature.",
+   "id": "temperature",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "reinforcement learning",
+   "pos": "n",
+   "ipa": "/ˌriː.ɪnˈfɔːs.mənt ˌlɜː.nɪŋ/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "Training an AI by rewarding good actions and penalising bad ones.",
+   "everyday": "Like training a dog with treats.",
+   "work": "The robot learned to walk using reinforcement learning.",
+   "synonyms": [
+    "RL"
+   ],
+   "antonyms": [],
+   "gap": "The game AI improved through ___.",
+   "answer": "reinforcement learning",
+   "plain": "The AI learns by getting rewards for good moves.",
+   "model": "The AI learns through reinforcement learning.",
+   "id": "reinforcement-learning",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "transformer",
+   "pos": "n",
+   "ipa": "/trænsˈfɔː.mə/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "The type of neural network behind most modern language models.",
+   "everyday": "Like a reader who looks at every word in a sentence at once to understand each one.",
+   "work": "Most chatbots are built on the transformer architecture.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "The ___ design made large language models possible.",
+   "answer": "transformer",
+   "plain": "Modern chatbots use a design that looks at all words together.",
+   "model": "Modern chatbots use a transformer.",
+   "id": "transformer",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "zero-day",
+   "pos": "n",
+   "ipa": "/ˌzɪə.rəʊ ˈdeɪ/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "A security flaw that attackers find before the maker has fixed it.",
+   "everyday": "Like burglars finding a broken lock before the owner knows it's broken.",
+   "work": "Attackers used a zero-day in the browser.",
+   "synonyms": [
+    "unpatched flaw"
+   ],
+   "antonyms": [],
+   "gap": "The hackers exploited a ___ in the software.",
+   "answer": "zero-day",
+   "plain": "Hackers used a flaw nobody knew about yet.",
+   "model": "Hackers used a zero-day.",
+   "id": "zero-day",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "race condition",
+   "pos": "n",
+   "ipa": "/ˈreɪs kənˌdɪʃ.ən/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "A bug where the result depends on which of two things happens first.",
+   "everyday": "Like two people grabbing the last seat at once and both thinking they got it.",
+   "work": "A race condition let two users book the same seat.",
+   "synonyms": [
+    "timing bug"
+   ],
+   "antonyms": [],
+   "gap": "The double booking was caused by a ___.",
+   "answer": "race condition",
+   "plain": "Two requests arrived at once and both succeeded.",
+   "model": "A race condition let both requests succeed.",
+   "id": "race-condition",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "canary release",
+   "pos": "n",
+   "ipa": "/kəˈneə.ri rɪˌliːs/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "Releasing a change to a small group of users first to check it is safe.",
+   "everyday": "Like tasting a spoonful of soup before serving the whole pot.",
+   "work": "We did a canary release to 5% of users.",
+   "synonyms": [
+    "staged rollout"
+   ],
+   "antonyms": [
+    "big-bang release"
+   ],
+   "gap": "Try a ___ before rolling out to everyone.",
+   "answer": "canary release",
+   "plain": "We gave the update to a few users first to test it.",
+   "model": "We did a canary release of the update.",
+   "id": "canary-release",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "blast radius",
+   "pos": "n",
+   "ipa": "/ˈblɑːst ˌreɪ.di.əs/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "How much of a system is affected when something goes wrong.",
+   "everyday": "Like how many rooms go dark when one fuse blows.",
+   "work": "Splitting the service reduced the blast radius of outages.",
+   "synonyms": [
+    "impact area"
+   ],
+   "antonyms": [],
+   "gap": "Keep the ___ small by releasing in stages.",
+   "answer": "blast radius",
+   "plain": "If this fails, how much of the system goes down?",
+   "model": "What's the blast radius if this fails?",
+   "id": "blast-radius",
+   "added": "2026-10-31"
+  },
+  {
+   "word": "multimodal",
+   "pos": "adj",
+   "ipa": "/ˌmʌl.tiˈməʊ.dəl/",
+   "level": "advanced",
+   "tag": "tech",
+   "meaning": "Able to work with several kinds of input, such as text, images and audio.",
+   "everyday": "Like a friend who can read your note, look at your photo and hear your voice message.",
+   "work": "The new model is multimodal, so it can read charts.",
+   "synonyms": [
+    "multi-format"
+   ],
+   "antonyms": [],
+   "gap": "A ___ model can describe what's in a photo.",
+   "answer": "multimodal",
+   "plain": "The AI understands pictures as well as text.",
+   "model": "The AI is multimodal.",
+   "id": "multimodal",
+   "added": "2026-10-31"
+  }
+ ]
+}

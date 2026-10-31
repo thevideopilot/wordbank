@@ -33,19 +33,34 @@ British English throughout. Your progress is stored on your device only.
 
 Words are grouped by **level** (Basic, Intermediate, Advanced) and tagged by **topic**: General, GRE / GMAT, Executive & strategy, Tech & AI. Each card has the meaning, British IPA, an everyday example (a plain-English comparison for tech terms), a work example, similar and opposite words, a gap-fill sentence, and a plain sentence with a model rewrite.
 
-Words live in `data/pack-*.json`, listed in `data/index.json`. To add a pack:
+Words live in `data/pack-*.json`, listed in `data/index.json`. The service worker reads that list, so a new pack needs no code change.
+
+## New words every fortnight
+
+- **Queue:** `tools/queue.txt` holds words waiting to be released, in the same pipe-separated format as the pack sources.
+- **Release:** every other Monday (even ISO weeks), the GitHub Action in `.github/workflows/top-up.yml` runs `tools/release.py`. It takes the next 20 words, builds `data/pack-NNN.json`, lists it in `data/index.json`, commits and rebuilds the site. Run it by hand from the Actions tab: `check` validates the queue; `release` releases 20 now.
+- **Refill:** on the 1st of each month a Claude task on the Mac tops the queue back up to 60, leaning towards the level you're studying, then runs `python3 tools/release.py --check` and pushes.
+- **Just added:** words from packs released in the last 14 days appear on the Today screen, with a button to learn them.
+
+To add words by hand, append lines to `tools/queue.txt`, check them, and release:
 
 ```bash
-python3 tools/build_pack.py tools/words-pack-002.txt data/pack-002.json 2026-11-07
+python3 tools/release.py --check
 ```
 
-Then add `"pack-002.json"` to `data/index.json`, add it to the `SHELL` list in `sw.js` and bump `VERSION` there.
+```bash
+python3 tools/release.py
+```
+
+## Backup
+
+Progress is stored on the device. **Progress → Save backup** downloads a JSON file; **Restore** loads one back (for example on a new phone).
 
 ## Sprints
 
 1. **Foundation and Learn** (done): installable offline app, Today screen, Learn cards with British pronunciation, four-stage tracking, Words list and search, first 150 words.
 2. **Practise and Apply** (done): fill-the-gap, pick-the-word, rewrite with model answer, daily 30-minute session and 5-minute mode, spaced check-ups, +175 words.
-3. **Progress and growth**: progress screen, topic filters, backup and restore, "New this week" shelf, weekly automatic top-up of ~20 words, final 175 words.
+3. **Progress and growth** (done): progress screen, topic filters, backup and restore, "Just added" shelf, fortnightly automatic top-up of 20 words, final 175 words.
 
 ## Run locally
 

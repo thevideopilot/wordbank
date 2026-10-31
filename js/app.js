@@ -15,7 +15,9 @@ let view = 'today';             // today | session | done | words | word
 let session = null;             // see startSession()
 let openId = null;
 let confirmReset = false;
-let list = { q: '', level: 'all' };
+let list = { q: '', level: 'all', tag: 'all', stage: 'all' };
+let returnTo = 'words';         // where Back goes from a word
+let notice = '';                // one-off message on the Progress screen, e.g. after a restore
 let installPrompt = null;
 
 const DECK_SIZES = [5, 8, 12, 20];
@@ -23,15 +25,25 @@ const DECK_SIZES = [5, 8, 12, 20];
 const MODES = {
   full: { practise: 12, apply: 4 },
   quick: { review: 6, practise: 6, apply: 0 },
+  added: { practise: 0, apply: 0 },
 };
+const SHELF_DAYS = 14;
 
 // ---------- planning a session ----------
+
+// Words from packs released in the last fortnight (not the ones you started with).
+function justAdded() {
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - SHELF_DAYS);
+  const from = store.iso(cutoff);
+  return words.filter((w) => w.added > store.since() && w.added >= from);
+}
 
 function plan(mode) {
   const s = store.settings();
   const m = MODES[mode];
-  const learn = mode === 'quick'
-    ? buildReviewDeck(words, m.review)
+  const learn = mode === 'quick' ? buildReviewDeck(words, m.review)
+    : mode === 'added' ? justAdded().filter((w) => !store.progressOf(w.id).stage).slice(0, s.deckSize)
     : buildDeck(words, { level: s.level, tags: s.tags }, s.deckSize);
   const { checkups, practice } = practicePool(words);
   const prac = [...checkups.map((w) => ({ w, check: true })), ...practice.map((w) => ({ w, check: false }))].slice(0, m.practise);
@@ -106,6 +118,8 @@ function todayScreen() {
       ${!fresh && !fullN ? '<p class="muted small">Pick another level or topic below, or come back tomorrow.</p>' : ''}
     </section>
 
+    ${shelf()}
+
     <section class="stats" aria-label="Your words by stage">
       ${STAGES.map((name, i) => `
         <div class="stat stage-${STAGE_KEYS[i]}">
@@ -126,9 +140,25 @@ function todayScreen() {
       </div>
     </section>
 
-    ${installTip()}
+    ${installTip()}`;
+}
 
-    <p class="coming">Coming next: progress screen, backup and weekly new words.</p>`;
+function shelf() {
+  const fresh = justAdded();
+  if (!fresh.length) return '';
+  const unseen = fresh.filter((w) => !store.progressOf(w.id).stage).length;
+  const shown = fresh.slice(0, 8);
+  return `
+    <section class="panel shelf" aria-labelledby="shelf-h">
+      <div class="panel-top">
+        <h2 id="shelf-h" class="eyebrow">Just added · ${fresh.length} words</h2>
+      </div>
+      <div class="chips wrap">
+        ${shown.map((w) => `<button class="chip btn-chip" data-act="open" data-id="${esc(w.id)}">${esc(w.word)}</button>`).join('')}
+        ${fresh.length > shown.length ? `<span class="chip more">+${fresh.length - shown.length}</span>` : ''}
+      </div>
+      ${unseen ? `<button class="btn" data-act="start" data-v="added">Learn the new words · ${Math.min(unseen, store.settings().deckSize)} cards</button>` : '<p class="muted small">You’ve started all of them.</p>'}
+    </section>`;
 }
 
 function installTip() {
@@ -295,19 +325,35 @@ function wordsScreen() {
       ${ICON.search}
       <input id="q" type="search" placeholder="Search words or meanings" value="${esc(list.q)}" autocomplete="off" autocapitalize="off" spellcheck="false">
     </label>
-    <div class="chips wrap">
-      ${[['all', 'All'], ...LEVELS].map(([id, name]) => `<button class="chip btn-chip ${list.level === id ? 'on' : ''}" data-act="list-level" data-v="${id}" aria-pressed="${list.level === id}">${name}</button>`).join('')}
+    <div class="filters">
+      ${filterRow('Level', 'level', [['all', 'All'], ...LEVELS])}
+      ${filterRow('Topic', 'tag', [['all', 'All'], ...TAGS])}
+      ${filterRow('Stage', 'stage', [['all', 'All'], ...STAGES.map((name, i) => [String(i), name])])}
     </div>
-    <ul class="word-list" id="list">${wordRows()}</ul>`;
+    <p class="muted small" id="list-count"></p>
+    <ul class="word-list" id="list"></ul>`;
 }
+
+// One row of filter chips that scrolls sideways on a narrow phone.
+const filterRow = (label, key, options) => `
+  <div class="filter" role="group" aria-label="${label}">
+    <span class="label">${label}</span>
+    <div class="chips scroll">
+      ${options.map(([id, name]) => `<button class="chip btn-chip ${list[key] === id ? 'on' : ''}" data-act="filter" data-k="${key}" data-v="${id}" aria-pressed="${list[key] === id}">${name}</button>`).join('')}
+    </div>
+  </div>`;
 
 function wordRows() {
   const q = list.q.trim().toLowerCase();
   const rows = words
     .filter((w) => list.level === 'all' || w.level === list.level)
+    .filter((w) => list.tag === 'all' || w.tag === list.tag)
+    .filter((w) => list.stage === 'all' || String(store.progressOf(w.id).stage) === list.stage)
     .filter((w) => !q || w.word.toLowerCase().includes(q) || w.meaning.toLowerCase().includes(q))
     .sort((a, b) => a.word.localeCompare(b.word, 'en-GB'));
-  if (!rows.length) return `<li class="empty">No words match “${esc(list.q)}”.</li>`;
+  const count = document.getElementById('list-count');
+  if (count) count.textContent = `${rows.length} shown`;
+  if (!rows.length) return `<li class="empty">No words match these filters.</li>`;
   return rows.map((w) => `<li><button class="word-row" data-act="open" data-id="${esc(w.id)}"><span class="w">${esc(w.word)}</span><span class="m">${esc(w.meaning)}</span>${stagePill(store.progressOf(w.id).stage)}</button></li>`).join('');
 }
 
@@ -337,16 +383,108 @@ function wordScreen() {
     </section>`;
 }
 
+function progressScreen() {
+  const t = store.today();
+  const counts = stageCounts(words);
+  const allDays = store.days();
+  const studied = Object.keys(allDays).length;
+  const total = Object.values(allDays).reduce((a, b) => a + b, 0);
+
+  // The last 14 days as bars.
+  const last = [];
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date(); d.setDate(d.getDate() - i);
+    last.push({ d, n: allDays[store.iso(d)] || 0 });
+  }
+  const peak = Math.max(10, ...last.map((x) => x.n));
+  const bars = last.map(({ d, n }) => `
+    <div class="day ${store.iso(d) === t ? 'today' : ''}" title="${d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' })}: ${n}">
+      <i style="height:${Math.round((n / peak) * 100)}%"></i>
+      <span>${d.toLocaleDateString('en-GB', { weekday: 'narrow' })}</span>
+    </div>`).join('');
+
+  // Stage mix for each level and topic, as stacked bars.
+  const mix = (group) => {
+    const c = [0, 0, 0, 0];
+    for (const w of group) c[store.progressOf(w.id).stage]++;
+    const sum = group.length || 1;
+    const started = group.length - c[0];
+    return `<div class="mix" role="img" aria-label="${STAGES.map((n, i) => `${c[i]} ${n}`).join(', ')}">
+        ${[3, 2, 1].map((i) => (c[i] ? `<i class="stage-${STAGE_KEYS[i]}" style="width:${(c[i] / sum) * 100}%"></i>` : '')).join('')}
+      </div><span class="mix-n">${started} / ${group.length}</span>`;
+  };
+  const rows = (pairs, key) => pairs.map(([id, name]) => `
+    <li><span class="mix-l">${name}</span>${mix(words.filter((w) => w[key] === id))}</li>`).join('');
+
+  // What's coming up in the next week.
+  const week = new Date(); week.setDate(week.getDate() + 7);
+  const soon = store.iso(week);
+  let checkups = 0, ready = 0, reviews = 0;
+  for (const w of words) {
+    const p = store.progressOf(w.id);
+    if (p.stage === 3 && (p.due || t) <= soon) checkups++;
+    if (p.stage === 2 && (p.prac || 0) >= PRACTICE_TO_APPLY) ready++;
+    if (p.stage === 1 && (p.due || t) <= soon) reviews++;
+  }
+
+  return `
+    <header class="hello compact">
+      <h1>Progress</h1>
+      <p class="muted">${counts[3]} of ${words.length} words applied</p>
+    </header>
+
+    <section class="stats" aria-label="Your words by stage">
+      ${STAGES.map((name, i) => `<div class="stat stage-${STAGE_KEYS[i]}"><span class="stat-n">${counts[i]}</span><span class="stat-l">${name}</span></div>`).join('')}
+    </section>
+
+    <section class="panel">
+      <div class="panel-top">
+        <h2 class="eyebrow">Last 14 days</h2>
+        <span class="streak"><b>${store.streak()}</b> day streak</span>
+      </div>
+      <div class="days" aria-label="Cards and questions per day">${bars}</div>
+      <p class="muted small">${total} cards and questions over ${studied} day${studied === 1 ? '' : 's'}.</p>
+    </section>
+
+    <section class="panel">
+      <h2 class="eyebrow">Next 7 days</h2>
+      <ul class="plan">
+        <li class="${reviews ? '' : 'off'}"><span class="plan-n">${reviews}</span><span class="plan-l"><b>Card reviews</b><small>Learning words coming back</small></span></li>
+        <li class="${checkups ? '' : 'off'}"><span class="plan-n">${checkups}</span><span class="plan-l"><b>Check-ups</b><small>Applied words to keep fresh</small></span></li>
+        <li class="${ready ? '' : 'off'}"><span class="plan-n">${ready}</span><span class="plan-l"><b>Ready to rewrite</b><small>Remembered words with ${PRACTICE_TO_APPLY} right answers</small></span></li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2 class="eyebrow">By level</h2>
+      <ul class="mixes">${rows(LEVELS, 'level')}</ul>
+      <h2 class="eyebrow">By topic</h2>
+      <ul class="mixes">${rows(TAGS, 'tag')}</ul>
+      <p class="legend">${STAGES.map((n, i) => `<span><i class="stage-${STAGE_KEYS[i]}"></i>${n}</span>`).join('')}</p>
+    </section>
+
+    <section class="panel backup">
+      <h2 class="eyebrow">Backup</h2>
+      <p class="small">Your progress is saved on this device only. Download a backup now and then, and restore it if you change phone or clear your browser.</p>
+      ${notice ? `<p class="notice" role="status">${esc(notice)}</p>` : ''}
+      <div class="backup-actions">
+        <button class="btn" data-act="backup">${ICON.download} Save backup</button>
+        <label class="btn">${ICON.upload} Restore<input type="file" id="restore" accept="application/json,.json" hidden></label>
+      </div>
+    </section>`;
+}
+
 function nav() {
+  const on = (id) => view === id || (id === returnTo && view === 'word');
   const tab = (id, label, icon) =>
-    `<button class="tab ${view === id || (id === 'words' && view === 'word') ? 'on' : ''}" data-act="nav" data-v="${id}">${icon}<span>${label}</span></button>`;
-  return `<nav class="tabs" aria-label="Main">${tab('today', 'Today', ICON.today)}${tab('words', 'Words', ICON.words)}</nav>`;
+    `<button class="tab ${on(id) ? 'on' : ''}" data-act="nav" data-v="${id}">${icon}<span>${label}</span></button>`;
+  return `<nav class="tabs" aria-label="Main">${tab('today', 'Today', ICON.today)}${tab('words', 'Words', ICON.words)}${tab('progress', 'Progress', ICON.progress)}</nav>`;
 }
 
 // ---------- rendering ----------
 
 function render({ keepScroll = false } = {}) {
-  const screens = { today: todayScreen, session: sessionScreen, done: doneScreen, words: wordsScreen, word: wordScreen };
+  const screens = { today: todayScreen, session: sessionScreen, done: doneScreen, words: wordsScreen, word: wordScreen, progress: progressScreen };
   const focused = view === 'session' || (view === 'word' && session);
   app.className = `app view-${focused ? 'learn' : view}`;
   app.innerHTML = `<main class="screen">${screens[view]()}</main>${focused ? '' : nav()}`;
@@ -354,8 +492,12 @@ function render({ keepScroll = false } = {}) {
   if (!canSpeak()) app.querySelectorAll('.speak').forEach((b) => b.remove());
   if (view === 'words') {
     const q = document.getElementById('q');
-    q.addEventListener('input', () => { list.q = q.value; document.getElementById('list').innerHTML = wordRows(); });
+    const refresh = () => { document.getElementById('list').innerHTML = wordRows(); };
+    q.addEventListener('input', () => { list.q = q.value; refresh(); });
+    refresh();
   }
+  document.getElementById('restore')?.addEventListener('change', restore);
+  notice = '';
   document.getElementById('gap-input')?.focus({ preventScroll: true });
 }
 
@@ -479,7 +621,7 @@ const actions = {
     openId = el.dataset.id;
     go('word');
   },
-  back: () => go(session ? 'session' : 'words'),
+  back: () => go(session ? 'session' : returnTo),
   speak: (el) => speak(el.dataset.say),
   size: (el) => { store.setSetting('deckSize', Number(el.dataset.v)); render({ keepScroll: true }); },
   level: (el) => { store.setSetting('level', el.dataset.v); render({ keepScroll: true }); },
@@ -489,8 +631,16 @@ const actions = {
     store.setSetting('tags', !v ? [] : tags.includes(v) ? tags.filter((t) => t !== v) : [...tags, v]);
     render({ keepScroll: true });
   },
-  'list-level': (el) => { list.level = el.dataset.v; render({ keepScroll: true }); },
-  open: (el) => { session = null; openId = el.dataset.id; go('word'); },
+  filter: (el) => { list[el.dataset.k] = el.dataset.v; render({ keepScroll: true }); },
+  open: (el) => { session = null; returnTo = view === 'word' ? returnTo : view === 'done' ? 'today' : view; openId = el.dataset.id; go('word'); },
+  backup: () => {
+    const blob = new Blob([store.exportData()], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `wordbank-backup-${store.today()}.json`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  },
   reset: () => {
     if (!confirmReset) { confirmReset = true; render({ keepScroll: true }); return; }
     store.resetProgress(openId);
@@ -506,6 +656,18 @@ app.addEventListener('click', (e) => {
   if (!el || el.disabled) return;
   actions[el.dataset.act]?.(el);
 });
+
+async function restore(e) {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  try {
+    const n = store.importData(await file.text());
+    notice = `Restored progress for ${n} word${n === 1 ? '' : 's'} from ${file.name}.`;
+  } catch (err) {
+    notice = err instanceof SyntaxError ? "That file isn't a Wordbank backup." : err.message;
+  }
+  render({ keepScroll: true });
+}
 
 app.addEventListener('submit', (e) => {
   e.preventDefault();

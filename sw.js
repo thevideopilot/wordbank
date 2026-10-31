@@ -1,5 +1,6 @@
 // Offline support. Bump VERSION whenever app files change so phones pick up the update.
-const VERSION = 'wordbank-s2-4';
+// Word packs are read from data/index.json, so adding a pack needs no change here.
+const VERSION = 'wordbank-s3-2';
 const SHELL = [
   './',
   'index.html',
@@ -14,14 +15,18 @@ const SHELL = [
   'icons/icon-192.png',
   'icons/apple-touch-icon.png',
   'data/index.json',
-  'data/pack-001.json',
-  'data/pack-002.json',
 ];
 
 self.addEventListener('install', (event) => {
   // cache: 'reload' skips the browser's HTTP cache, so a new version never stores old files.
-  const fresh = SHELL.map((url) => new Request(url, { cache: 'reload' }));
-  event.waitUntil(caches.open(VERSION).then((c) => c.addAll(fresh)).then(() => self.skipWaiting()));
+  const fresh = (url) => new Request(url, { cache: 'reload' });
+  event.waitUntil((async () => {
+    const cache = await caches.open(VERSION);
+    await cache.addAll(SHELL.map(fresh));
+    const index = await (await cache.match('data/index.json')).json();
+    await cache.addAll(index.packs.map((f) => fresh(`data/${f}`)));
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
