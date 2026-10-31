@@ -1,0 +1,390 @@
+<title>Wordbank App Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:wght@400;700&family=Caveat:wght@500;700&family=Noto+Sans+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a study planner — one reading column for the plan, a wrapping grid of lo-fi phone sketches with hand-written margin notes. */
+:root {
+  --paper: #eef1f5;
+  --sheet: #ffffff;
+  --ink: #1c2433;
+  --ink-soft: #566079;
+  --line: #c9d0dc;
+  --hl: #ffe45c;          /* highlighter */
+  --hl-ink: #1c2433;
+  --accent: #2f5bd3;      /* study-pen blue */
+  --good: #1f8a5b;
+  --warn: #b5681a;
+  --sketch-fill: #f6f8fb;
+  --f-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-hand: "Caveat", "Bradley Hand", "Comic Sans MS", cursive;
+  --f-mono: "Noto Sans Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161e; --sheet: #1a202b; --ink: #e6eaf2; --ink-soft: #9aa4b8; --line: #343d4e;
+    --hl: #e8cf45; --hl-ink: #141820; --accent: #7fa0ff; --good: #4fc58f; --warn: #e5a052; --sketch-fill: #212836;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161e; --sheet: #1a202b; --ink: #e6eaf2; --ink-soft: #9aa4b8; --line: #343d4e;
+  --hl: #e8cf45; --hl-ink: #141820; --accent: #7fa0ff; --good: #4fc58f; --warn: #e5a052; --sketch-fill: #212836;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink);
+  font: 16px/1.6 var(--f-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 56px; }
+.col { max-width: 68ch; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); font-weight: 700; letter-spacing: -0.02em; }
+h2 { font-size: 1.6rem; font-weight: 700; }
+h3 { font-size: 1.1rem; font-weight: 700; }
+p { margin: 0; }
+.eyebrow { font: 500 0.75rem/1 var(--f-mono); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 45%, var(--hl) 45%, var(--hl) 90%, transparent 90%); color: inherit; padding: 0 2px; }
+section { display: grid; gap: 20px; }
+.lede { font-size: 1.15rem; color: var(--ink-soft); }
+.hand { font-family: var(--f-hand); font-size: 1.25rem; line-height: 1.2; color: var(--accent); }
+
+/* Loop diagram */
+.loop { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.stage { background: var(--sheet); border: 1.5px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 6px; align-content: start; position: relative; }
+.stage .tag { font: 500 0.7rem/1 var(--f-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.stage h3 { font-size: 1.25rem; }
+.stage p { font-size: 0.92rem; color: var(--ink-soft); }
+.stage .gate { font-family: var(--f-hand); color: var(--accent); font-size: 1.1rem; line-height: 1.15; }
+.stage.s4 { border-color: var(--ink); }
+@media (max-width: 760px) { .loop { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 420px) { .loop { grid-template-columns: 1fr; } }
+
+/* Buckets */
+.buckets { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+.bucket { border-top: 3px solid var(--ink); padding-top: 10px; display: grid; gap: 4px; }
+.bucket b { font-family: var(--f-display); font-size: 1.05rem; }
+.bucket span { font-size: 0.9rem; color: var(--ink-soft); }
+.bucket i { font-style: normal; font: 0.82rem/1.4 var(--f-mono); color: var(--ink); }
+
+/* Sketches */
+.sketches { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 32px 24px; }
+figure { margin: 0; display: grid; gap: 10px; align-content: start; }
+figcaption { display: grid; gap: 2px; }
+figcaption b { font-family: var(--f-display); font-size: 1rem; }
+figcaption span { font-size: 0.88rem; color: var(--ink-soft); }
+.phone {
+  width: 100%; max-width: 270px; aspect-ratio: 9 / 17.5;
+  background: var(--sheet); border: 2px solid var(--ink); border-radius: 28px;
+  padding: 22px 14px 14px; display: flex; flex-direction: column; gap: 10px; overflow: hidden;
+  font-size: 0.82rem; line-height: 1.4;
+}
+.bar { display: flex; justify-content: space-between; align-items: center; font: 500 0.68rem/1 var(--f-mono); color: var(--ink-soft); letter-spacing: 0.06em; text-transform: uppercase; }
+.box { border: 1.5px dashed var(--line); border-radius: 10px; padding: 10px; background: var(--sketch-fill); display: grid; gap: 6px; }
+.box.solid { border-style: solid; border-color: var(--ink); background: var(--sheet); }
+.big { font-family: var(--f-display); font-size: 1.7rem; font-weight: 700; line-height: 1.05; }
+.mid { font-family: var(--f-display); font-size: 1.05rem; font-weight: 700; }
+.ipa { font-family: var(--f-mono); font-size: 0.78rem; color: var(--ink-soft); }
+.muted { color: var(--ink-soft); }
+.row { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.chip { border: 1.5px solid var(--line); border-radius: 999px; padding: 2px 9px; font-size: 0.74rem; }
+.chip.on { background: var(--ink); color: var(--sheet); border-color: var(--ink); }
+.btn { border: 2px solid var(--ink); border-radius: 10px; padding: 8px; text-align: center; font-weight: 700; }
+.btn.fill { background: var(--ink); color: var(--sheet); }
+.btn.ok { border-color: var(--good); color: var(--good); }
+.grow { flex: 1; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.opt { border: 1.5px solid var(--line); border-radius: 8px; padding: 7px; text-align: center; }
+.opt.right { border-color: var(--good); color: var(--good); font-weight: 700; }
+.blank { display: inline-block; min-width: 56px; border-bottom: 2px solid var(--ink); }
+.lbl { font: 500 0.64rem/1 var(--f-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); }
+.meter { height: 8px; background: var(--sketch-fill); border: 1px solid var(--line); border-radius: 99px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--ink); }
+.note { font-family: var(--f-hand); color: var(--accent); font-size: 1.15rem; line-height: 1.15; max-width: 270px; }
+.feedback { border-left: 3px solid var(--good); padding-left: 8px; }
+
+/* Scope + plan */
+.scope { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.scope ul, .plan ol, .qs ol { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.scope h3 { padding-bottom: 6px; border-bottom: 2px solid var(--ink); margin-bottom: 10px; }
+.scope .later h3 { border-bottom-style: dashed; color: var(--ink-soft); }
+.plan ol { gap: 14px; }
+.plan li b { font-family: var(--f-display); }
+.plan li span { color: var(--ink-soft); display: block; font-size: 0.95rem; }
+.fields { display: grid; grid-template-columns: max-content 1fr; gap: 6px 18px; font-size: 0.95rem; }
+.fields dt { font-family: var(--f-mono); font-size: 0.82rem; color: var(--ink-soft); padding-top: 2px; }
+.fields dd { margin: 0; min-width: 0; }
+.qs { background: var(--sheet); border: 2px solid var(--ink); border-radius: 12px; padding: 20px; }
+.qs li b { font-family: var(--f-display); }
+.qs li span { color: var(--ink-soft); display: block; font-size: 0.95rem; }
+</style>
+
+<div class="wrap">
+
+  <header class="col" style="display:grid;gap:14px">
+    <p class="eyebrow">Plan · draft 3 · 31 Oct 2026</p>
+    <h1>Wordbank</h1>
+    <p class="lede">A pocket vocabulary trainer for general English. You learn a word on a card, prove you remember it, then <mark>use it in your own sentences</mark> until it's yours. Built for one person, 30 minutes a day, on a phone. British English throughout.</p>
+  </header>
+
+  <section>
+    <p class="eyebrow">How a word moves</p>
+    <h2>Four stages, from new to used</h2>
+    <p class="col muted">Every word carries a status. It only moves forward when you show you know it, so the app always knows what to give you next.</p>
+    <div class="loop">
+      <div class="stage"><span class="tag">Stage 1</span><h3>New</h3><p>You see the word on a card and tap to reveal meaning, sound, examples.</p><span class="gate">→ tap "I know this"</span></div>
+      <div class="stage"><span class="tag">Stage 2</span><h3>Learning</h3><p>The card comes back in later sessions until you recall it before flipping.</p><span class="gate">→ recall it 2 times in a row</span></div>
+      <div class="stage"><span class="tag">Stage 3</span><h3>Remembered</h3><p>Now it turns up in fill-the-gap and pick-the-word exercises.</p><span class="gate">→ 3 correct answers</span></div>
+      <div class="stage s4"><span class="tag">Stage 4</span><h3>Applied</h3><p>You've rewritten plain sentences with it. Comes back for a check-up after 1, 3, then 7 days.</p><span class="gate">✓ yours</span></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Levels</p>
+    <h2>Three levels, 500 words</h2>
+    <p class="col muted">Words are grouped by level only. Each word also carries a <b>source tag</b> so you can filter, for example "Advanced, GRE only", but the main path is Basic → Intermediate → Advanced.</p>
+    <div class="buckets">
+      <div class="bucket"><b>Basic · ~150</b><span>Common words worth using correctly and confidently</span><i>eager · reluctant · ensure · vital</i></div>
+      <div class="bucket"><b>Intermediate · ~200</b><span>Sharper, more precise everyday and work words</span><i>concise · mitigate · candid · prioritise</i></div>
+      <div class="bucket"><b>Advanced · ~150</b><span>Exam-level and boardroom-level words</span><i>meticulous · pragmatic · obfuscate · laconic</i></div>
+    </div>
+    <p class="eyebrow" style="margin-top:8px">Source tags</p>
+    <div class="buckets">
+      <div class="bucket"><b>General · ~160</b><span>Everyday English for conversation, writing, reading</span><i>hassle · dreadful · thorough</i></div>
+      <div class="bucket"><b>GRE / GMAT · ~140</b><span>High-frequency exam words. The GRE tests vocabulary directly (Text Completion, Sentence Equivalence). The current GMAT has no vocabulary section, so these mostly help reading comprehension.</span><i>ubiquitous · equivocate · prudent · mitigate</i></div>
+      <div class="bucket"><b>Executive & strategy · ~100</b><span><b>Polished</b>: words that sound senior (articulate, delegate, cadence). <b>Strategy</b>: how leaders talk about markets and bets (moat, flywheel, unit economics, optionality). <b>Jargon decoder</b>: meeting phrases with what they really mean and a plain alternative (circle back, bandwidth, table stakes).</span><i>headwinds · go-to-market · north star</i></div>
+      <div class="bucket"><b>Tech & AI · ~100</b><span><b>Engineering</b>: terms you'll hear from developers and in product reviews. <b>AI</b>: the vocabulary of models and how they're built and used. For these, the "everyday" example on the card becomes a plain-English analogy, so you can explain the term, not just recognise it.</span><i>cache · observability · latency · idempotent · deprecate · inference · fine-tuning · hallucination · guardrails</i></div>
+    </div>
+    <div class="box solid col" style="font-size:0.95rem">
+      <span class="lbl">Example Tech & AI card · Intermediate</span>
+      <div><b style="font-family:var(--f-display);font-size:1.2rem">observability</b> <span class="ipa">/əbˌzɜː.vəˈbɪl.ə.ti/ · noun</span></div>
+      <p>How well you can tell what's happening inside a system from the data it gives out, such as logs, metrics and traces.</p>
+      <p><span class="lbl">Analogy</span> A car dashboard with good gauges and warning lights has high observability; one with no dashboard leaves you guessing.</p>
+      <p><span class="lbl">At work</span> "Before we scale this service, we need better observability so we can spot slow requests early."</p>
+      <p><span class="lbl">Related</span> monitoring, telemetry, visibility · <span class="lbl">Opposite</span> black box</p>
+    </div>
+  </section>
+
+  <section class="col">
+    <p class="eyebrow">Keeping it fresh</p>
+    <h2>The word bank updates itself</h2>
+    <p class="muted">The words live in the app's own database, separate from the page, so new words can be added without rebuilding anything.</p>
+    <ul style="margin:0;padding-left:1.2em;display:grid;gap:8px">
+      <li><b>Weekly top-up.</b> A scheduled Claude task runs once a week (say Sunday evening) and adds about 20 new words: a mix of levels and tags, in the same card format, checked against what's already there so nothing repeats.</li>
+      <li><b>"New this week" shelf</b> on the Home screen shows what arrived. They start at stage 1 like any other word.</li>
+      <li><b>Balanced intake.</b> The task looks at your progress and leans towards the level you're working on, so you're not flooded with Advanced words while still on Basic.</li>
+      <li><b>On request.</b> You can also ask Claude any time: "add 30 more AI words".</li>
+    </ul>
+    <p class="muted">The first 500 are written in batches of 50 during the build. Your progress stays private to your account.</p>
+  </section>
+
+  <section>
+    <p class="eyebrow">What's on a card</p>
+    <h2>One word, everything you need</h2>
+    <dl class="fields col">
+      <dt>word</dt><dd>meticulous, with its part of speech (adjective)</dd>
+      <dt>sound</dt><dd>/məˈtɪk.jə.ləs/ and a play button that reads it aloud</dd>
+      <dt>meaning</dt><dd>One plain-English line: showing great attention to detail</dd>
+      <dt>everyday</dt><dd>"She's meticulous about keeping her kitchen spotless."</dd>
+      <dt>at work</dt><dd>"The auditors were meticulous in checking the quarterly figures."</dd>
+      <dt>synonyms</dt><dd>thorough, careful, precise</dd>
+      <dt>antonyms</dt><dd>careless, sloppy</dd>
+      <dt>level · tag</dt><dd>Advanced · GRE / GMAT</dd>
+      <dt>practice</dt><dd>A gap-fill sentence and a plain sentence to rewrite, with a model answer</dd>
+    </dl>
+  </section>
+
+  <section>
+    <p class="eyebrow">Design sketches</p>
+    <h2>Seven screens</h2>
+    <p class="col muted">Lo-fi wireframes. Layout and content, not final styling.</p>
+    <div class="sketches">
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Wordbank</span><span>🔥 6 days</span></div>
+          <div class="mid">Good morning</div>
+          <div class="box solid">
+            <span class="lbl">Today · ~30 min</span>
+            <div class="row"><span class="grow">1 · Learn</span><span class="muted">8 cards</span></div>
+            <div class="row"><span class="grow">2 · Practise</span><span class="muted">12 questions</span></div>
+            <div class="row"><span class="grow">3 · Apply</span><span class="muted">4 sentences</span></div>
+            <div class="btn fill">Start session</div>
+          </div>
+          <div class="row"><span class="chip">Quick 5 min</span><span class="chip">Review only</span></div>
+          <div class="box"><span class="lbl">New this week · 20</span><div class="row"><span class="chip">headwinds</span><span class="chip">cache</span><span class="chip">+18</span></div></div>
+          <span class="lbl">Levels</span>
+          <div class="box"><div class="row"><span class="grow">Basic</span><span class="muted">96/150</span></div><div class="meter"><i style="width:64%"></i></div></div>
+          <div class="box"><div class="row"><span class="grow">Intermediate</span><span class="muted">31/200</span></div><div class="meter"><i style="width:16%"></i></div></div>
+        </div>
+        <figcaption><b>Home</b><span>One button starts the whole 30-minute routine.</span></figcaption>
+        <p class="note">session is built for you — new cards + due reviews</p>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Learn · 3 / 8</span><span>Advanced</span></div>
+          <div class="box solid grow" style="place-content:center;text-align:center">
+            <div class="big">meticulous</div>
+            <div class="ipa">/məˈtɪk.jə.ləs/ · adj</div>
+            <div class="row" style="justify-content:center"><span class="chip">▶ hear it</span></div>
+          </div>
+          <p class="muted" style="text-align:center">Do you know what it means?<br>Say it in your head, then tap.</p>
+          <div class="btn">Tap to reveal</div>
+        </div>
+        <figcaption><b>Card, front</b><span>Just the word and how it sounds.</span></figcaption>
+        <p class="note">try to recall before you flip</p>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Learn · 3 / 8</span><span>▶</span></div>
+          <div class="mid">meticulous</div>
+          <p>Showing great attention to detail; very careful and precise.</p>
+          <div class="box"><span class="lbl">Everyday</span>She's meticulous about keeping her kitchen spotless.</div>
+          <div class="box"><span class="lbl">At work</span>The auditors were meticulous in checking the figures.</div>
+          <div class="row"><span class="lbl">Syn</span><span class="chip">thorough</span><span class="chip">precise</span></div>
+          <div class="row"><span class="lbl">Ant</span><span class="chip">careless</span><span class="chip">sloppy</span></div>
+          <div class="two" style="margin-top:auto"><div class="btn">Still learning</div><div class="btn ok">I knew it</div></div>
+        </div>
+        <figcaption><b>Card, back</b><span>Meaning, two kinds of example, related words.</span></figcaption>
+        <p class="note">your answer moves the word along</p>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Practise · 5 / 12</span><span>Fill the gap</span></div>
+          <div class="box solid">
+            <p style="font-size:0.95rem">Please keep your update <span class="blank"></span> — the board only has five minutes.</p>
+          </div>
+          <div class="two">
+            <div class="opt right">concise ✓</div><div class="opt">verbose</div>
+            <div class="opt">candid</div><div class="opt">tedious</div>
+          </div>
+          <div class="box feedback" style="border-style:none none none solid;border-color:var(--good);border-radius:0;background:none">
+            <b>Right.</b> Concise = short and clear. Verbose is the opposite.
+          </div>
+          <div class="btn fill" style="margin-top:auto">Next</div>
+        </div>
+        <figcaption><b>Fill the gap</b><span>One sentence, four choices, instant feedback.</span></figcaption>
+        <p class="note">wrong options come from the same level so it's not too easy</p>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Practise · 9 / 12</span><span>Pick the word</span></div>
+          <div class="box solid">
+            <span class="lbl">Which word fits?</span>
+            <p style="font-size:0.95rem">We added a second supplier to <span class="blank"></span> the risk of delays.</p>
+          </div>
+          <div style="display:grid;gap:6px">
+            <div class="opt">aggravate</div>
+            <div class="opt right">mitigate ✓</div>
+            <div class="opt">leverage</div>
+            <div class="opt">postpone</div>
+          </div>
+          <p class="muted">Also: "Which word means <i>not willing</i>?" style questions.</p>
+        </div>
+        <figcaption><b>Pick the right word</b><span>Tests meaning in context, mixed across buckets.</span></figcaption>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Apply · 2 / 4</span><span>Rewrite</span></div>
+          <div class="box"><span class="lbl">Plain sentence</span>The manager was very honest about the problems.</div>
+          <div class="row"><span class="lbl">Use</span><span class="chip on">candid</span></div>
+          <div class="box solid" style="min-height:56px"><span class="lbl">Your version</span>The manager was candid about the problems we faced.</div>
+          <div class="box feedback" style="border-style:none none none solid;border-color:var(--good);border-radius:0;background:none">
+            <span class="lbl">Model answer</span>The manager was candid about the problems.
+          </div>
+          <span class="muted">Did you use it the same way?</span>
+          <div class="two" style="margin-top:auto"><div class="btn">Not quite</div><div class="btn ok">Got it</div></div>
+        </div>
+        <figcaption><b>Rewrite it</b><span>Upgrade a plain sentence, then compare with a model answer.</span></figcaption>
+        <p class="note">type yours, reveal the model answer, mark yourself honestly</p>
+      </figure>
+
+      <figure>
+        <div class="phone">
+          <div class="bar"><span>Progress</span><span>500 words</span></div>
+          <div class="two">
+            <div class="box"><span class="lbl">Applied</span><div class="mid">14</div></div>
+            <div class="box"><span class="lbl">Remembered</span><div class="mid">11</div></div>
+            <div class="box"><span class="lbl">Learning</span><div class="mid">9</div></div>
+            <div class="box"><span class="lbl">New</span><div class="mid">466</div></div>
+          </div>
+          <span class="lbl">Due for check-up today</span>
+          <div class="row"><span class="chip">leverage</span><span class="chip">vital</span><span class="chip">eager</span></div>
+          <span class="lbl">All words</span>
+          <div class="box"><div class="row"><span class="grow">candid</span><span class="muted">Applied</span></div></div>
+          <div class="box"><div class="row"><span class="grow">mitigate</span><span class="muted">Remembered</span></div></div>
+          <div class="row"><span class="chip on">All</span><span class="chip">General</span><span class="chip">GRE</span><span class="chip">Executive</span><span class="chip">Tech & AI</span></div>
+        </div>
+        <figcaption><b>Progress & word list</b><span>Counts by stage, what's due, filter by tag, search every word.</span></figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Scope</p>
+    <h2>What's in version 1</h2>
+    <div class="scope">
+      <div>
+        <h3>In</h3>
+        <ul>
+          <li>500 words across 3 levels, tagged General, GRE / GMAT, Executive & strategy, or Tech & AI</li>
+          <li>Weekly automatic top-up of ~20 new words</li>
+          <li>Flip cards with British pronunciation audio (phone's built-in voice)</li>
+          <li>Four-stage progress per word, with spaced check-ups</li>
+          <li>Fill the gap and pick-the-word practice, generated from your words</li>
+          <li>Rewrite exercises checked against a model answer</li>
+          <li>Daily 30-min session, quick 5-min mode, streak</li>
+          <li>Progress saved to your account, so phone and laptop stay in sync</li>
+        </ul>
+      </div>
+      <div class="later">
+        <h3>Later, if useful</h3>
+        <ul>
+          <li>Add your own word and have the card filled in for you</li>
+          <li>GRE-style "pick two words that give the same meaning"</li>
+          <li>Listening mode: hear a sentence, type the missing word</li>
+          <li>Speaking practice with the microphone</li>
+          <li>Reminder notifications (not possible inside this kind of page)</li>
+          <li>App-store app, accounts for other people, sharing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="plan col">
+    <p class="eyebrow">Build plan</p>
+    <h2>Six steps</h2>
+    <ol>
+      <li><b>Word bank.</b><span>Set up the database, then write the 500 cards in batches of 50, each with a gap-fill sentence and a rewrite with model answer.</span></li>
+      <li><b>Learn mode.</b><span>Card deck, flip, audio, "Still learning / I knew it", stage tracking.</span></li>
+      <li><b>Practise mode.</b><span>Fill the gap and pick-the-word, with distractors drawn from the same bucket.</span></li>
+      <li><b>Apply mode.</b><span>Rewrite prompts, feedback, model answers.</span></li>
+      <li><b>Daily session and progress.</b><span>Session builder, check-up schedule, streak, word list. Then test it on a phone.</span></li>
+      <li><b>Weekly top-up.</b><span>Set up the scheduled task that adds new words (with your OK).</span></li>
+    </ol>
+  </section>
+
+  <section class="qs col">
+    <p class="eyebrow">Decided</p>
+    <h2>Your answers</h2>
+    <ol>
+      <li><b>Rewrites:</b><span>checked against a model answer; you mark yourself.</span></li>
+      <li><b>Grouping:</b><span>levels only (Basic, Intermediate, Advanced), with source tags as filters.</span></li>
+      <li><b>Word bank:</b><span>500 words including GRE / GMAT, executive and strategy language, and tech and AI terms, topped up automatically each week.</span></li>
+      <li><b>English:</b><span>British spelling and pronunciation.</span></li>
+    </ol>
+  </section>
+
+</div>
