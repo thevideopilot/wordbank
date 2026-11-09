@@ -1,0 +1,457 @@
+{
+ "added": "2026-11-09",
+ "words": [
+  {
+   "word": "affable",
+   "pos": "adj",
+   "ipa": "/ˈæf.ə.bəl/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "Friendly and easy to talk to.",
+   "everyday": "Our affable postman knows everyone's name.",
+   "work": "The new director is affable and approachable.",
+   "synonyms": [
+    "friendly",
+    "genial"
+   ],
+   "antonyms": [
+    "unfriendly",
+    "surly"
+   ],
+   "gap": "He's an ___ host who makes everyone welcome.",
+   "answer": "affable",
+   "plain": "She's friendly and easy to talk to.",
+   "model": "She's affable.",
+   "id": "affable",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "torpid",
+   "pos": "adj",
+   "ipa": "/ˈtɔː.pɪd/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Slow, lazy and lacking energy.",
+   "everyday": "I feel torpid after a big Sunday lunch.",
+   "work": "The market was torpid all summer.",
+   "synonyms": [
+    "sluggish",
+    "lethargic"
+   ],
+   "antonyms": [
+    "energetic",
+    "lively"
+   ],
+   "gap": "The heat made everyone ___.",
+   "answer": "torpid",
+   "plain": "Trading was slow and lifeless today.",
+   "model": "Trading was torpid today.",
+   "id": "torpid",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "berate",
+   "pos": "v",
+   "ipa": "/bɪˈreɪt/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "To criticise or tell someone off angrily.",
+   "everyday": "She berated her son for being late.",
+   "work": "He berated the team in front of the client.",
+   "synonyms": [
+    "scold",
+    "rebuke"
+   ],
+   "antonyms": [
+    "praise",
+    "commend"
+   ],
+   "gap": "The coach ___ the players at half-time.",
+   "answer": "berated",
+   "plain": "The manager shouted at him for the mistake.",
+   "model": "The manager berated him for the mistake.",
+   "id": "berate",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "cursory",
+   "pos": "adj",
+   "ipa": "/ˈkɜː.sər.i/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "Quick and not thorough.",
+   "everyday": "I gave the menu a cursory glance.",
+   "work": "A cursory review missed the error.",
+   "synonyms": [
+    "hasty",
+    "superficial"
+   ],
+   "antonyms": [
+    "thorough",
+    "careful"
+   ],
+   "gap": "He gave the report only a ___ look.",
+   "answer": "cursory",
+   "plain": "She only had a quick look at the contract.",
+   "model": "She gave the contract a cursory look.",
+   "id": "cursory",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "truculent",
+   "pos": "adj",
+   "ipa": "/ˈtrʌk.jə.lənt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Eager to argue or fight.",
+   "everyday": "The truculent teenager slammed the door.",
+   "work": "A truculent supplier made the renewal difficult.",
+   "synonyms": [
+    "combative",
+    "defiant"
+   ],
+   "antonyms": [
+    "cooperative",
+    "amiable"
+   ],
+   "gap": "He was ___ and refused to answer.",
+   "answer": "truculent",
+   "plain": "He was aggressive and ready to argue.",
+   "model": "He was truculent.",
+   "id": "truculent",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "tenacious",
+   "pos": "adj",
+   "ipa": "/təˈneɪ.ʃəs/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "Determined and not giving up easily.",
+   "everyday": "The tenacious terrier wouldn't let go of the ball.",
+   "work": "She's tenacious in chasing unpaid invoices.",
+   "synonyms": [
+    "determined",
+    "persistent"
+   ],
+   "antonyms": [
+    "irresolute",
+    "weak"
+   ],
+   "gap": "He's a ___ negotiator.",
+   "answer": "tenacious",
+   "plain": "She never gives up until she gets an answer.",
+   "model": "She's tenacious.",
+   "id": "tenacious",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "vacillate",
+   "pos": "v",
+   "ipa": "/ˈvæs.ɪ.leɪt/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To keep changing your mind.",
+   "everyday": "I vacillated between pizza and curry.",
+   "work": "The board vacillated over the decision for months.",
+   "synonyms": [
+    "waver",
+    "dither"
+   ],
+   "antonyms": [
+    "decide",
+    "commit"
+   ],
+   "gap": "He continued to ___ between the two job offers.",
+   "answer": "vacillate",
+   "plain": "She kept changing her mind about the move.",
+   "model": "She vacillated about the move.",
+   "id": "vacillate",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "venerate",
+   "pos": "v",
+   "ipa": "/ˈven.ər.eɪt/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "To respect someone or something very deeply.",
+   "everyday": "The village venerates its oldest resident.",
+   "work": "Engineers venerate the original architect.",
+   "synonyms": [
+    "revere",
+    "honour"
+   ],
+   "antonyms": [
+    "despise",
+    "scorn"
+   ],
+   "gap": "Many cultures ___ their elders.",
+   "answer": "venerate",
+   "plain": "The team has deep respect for the founder.",
+   "model": "The team venerates the founder.",
+   "id": "venerate",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "anodyne",
+   "pos": "adj",
+   "ipa": "/ˈæn.ə.daɪn/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Inoffensive but dull, so unlikely to upset anyone.",
+   "everyday": "The hotel art was pleasant but anodyne.",
+   "work": "The press release was anodyne and said nothing new.",
+   "synonyms": [
+    "bland",
+    "innocuous"
+   ],
+   "antonyms": [
+    "provocative",
+    "striking"
+   ],
+   "gap": "The speech was ___ and quickly forgotten.",
+   "answer": "anodyne",
+   "plain": "The statement was safe but boring.",
+   "model": "The statement was anodyne.",
+   "id": "anodyne",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "taciturn",
+   "pos": "adj",
+   "ipa": "/ˈtæs.ɪ.tɜːn/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Saying very little.",
+   "everyday": "My taciturn grandad answers in one word.",
+   "work": "The taciturn engineer only speaks when it matters.",
+   "synonyms": [
+    "quiet",
+    "reticent"
+   ],
+   "antonyms": [
+    "talkative",
+    "loquacious"
+   ],
+   "gap": "He's ___ at breakfast.",
+   "answer": "taciturn",
+   "plain": "He doesn't say much in meetings.",
+   "model": "He's taciturn in meetings.",
+   "id": "taciturn",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "soporific",
+   "pos": "adj",
+   "ipa": "/ˌsɒp.əˈrɪf.ɪk/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Making you feel sleepy.",
+   "everyday": "The warm room had a soporific effect.",
+   "work": "The soporific presentation lasted an hour.",
+   "synonyms": [
+    "sleep-inducing",
+    "dull"
+   ],
+   "antonyms": [
+    "stimulating",
+    "invigorating"
+   ],
+   "gap": "The lecture was so ___ that half the class dozed off.",
+   "answer": "soporific",
+   "plain": "The talk was so boring it made me sleepy.",
+   "model": "The talk was soporific.",
+   "id": "soporific",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "halcyon",
+   "pos": "adj",
+   "ipa": "/ˈhæl.si.ən/",
+   "level": "intermediate",
+   "tag": "exam",
+   "meaning": "Describing a happy, peaceful time in the past.",
+   "everyday": "We remember the halcyon days of summer holidays.",
+   "work": "The early start-up days now seem halcyon.",
+   "synonyms": [
+    "idyllic",
+    "golden"
+   ],
+   "antonyms": [
+    "troubled",
+    "turbulent"
+   ],
+   "gap": "They talk about the ___ days before smartphones.",
+   "answer": "halcyon",
+   "plain": "Those were happy, peaceful days.",
+   "model": "Those were halcyon days.",
+   "id": "halcyon",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "recondite",
+   "pos": "adj",
+   "ipa": "/ˈrek.ən.daɪt/",
+   "level": "advanced",
+   "tag": "exam",
+   "meaning": "Little known and hard to understand.",
+   "everyday": "He loves recondite facts about trains.",
+   "work": "The tax rules are recondite even for accountants.",
+   "synonyms": [
+    "obscure",
+    "esoteric"
+   ],
+   "antonyms": [
+    "well-known",
+    "accessible"
+   ],
+   "gap": "The book covers some ___ areas of law.",
+   "answer": "recondite",
+   "plain": "The topic is obscure and hard to follow.",
+   "model": "The topic is recondite.",
+   "id": "recondite",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "FlashAttention",
+   "pos": "n",
+   "ipa": "/ˈflæʃ əˌten.ʃən/",
+   "level": "intermediate",
+   "tag": "tech",
+   "meaning": "An attention algorithm that computes exact attention in small tiles kept in fast on-chip memory, avoiding slow trips to GPU main memory.",
+   "everyday": "Like doing a long sum on a notepad beside you instead of walking to a whiteboard down the corridor for every line.",
+   "work": "Switching to FlashAttention let us double the context length on the same GPUs.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "The training run sped up by a third once we enabled ___.",
+   "answer": "FlashAttention",
+   "plain": "We rewrote attention so it works in small chunks in fast memory instead of shuffling data to slow memory.",
+   "model": "We switched to FlashAttention.",
+   "id": "flashattention",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "proclivity",
+   "pos": "n",
+   "ipa": "/prəˈklɪv.ə.ti/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "A natural tendency to do something, often something undesirable.",
+   "everyday": "My cat has a proclivity for sleeping on clean laundry.",
+   "work": "His proclivity for last-minute changes worries the release team.",
+   "synonyms": [
+    "tendency",
+    "inclination"
+   ],
+   "antonyms": [
+    "aversion",
+    "disinclination"
+   ],
+   "gap": "She has a ___ for taking on too much.",
+   "answer": "proclivity",
+   "plain": "He naturally tends to rewrite other people's code.",
+   "model": "He has a proclivity for rewriting other people's code.",
+   "id": "proclivity",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "Gall's law",
+   "pos": "n",
+   "ipa": "/ˈɡɔːlz ˌlɔː/",
+   "level": "intermediate",
+   "tag": "exec",
+   "meaning": "The idea that every complex system that works evolved from a simple system that worked; complex systems designed from scratch rarely work.",
+   "everyday": "Like a city growing from a village rather than being built in one go from a master plan.",
+   "work": "Gall's law is why we ship a crude version first and grow it.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "The big-bang rewrite failed, just as ___ would predict.",
+   "answer": "Gall's law",
+   "plain": "Complicated systems that work usually started as simple systems that worked.",
+   "model": "That's Gall's law in action.",
+   "id": "gall-s-law",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "West Lothian question",
+   "pos": "n",
+   "ipa": "/ˌwest ˈləʊ.ði.ən ˌkwes.tʃən/",
+   "level": "intermediate",
+   "tag": "politics",
+   "meaning": "The problem that Scottish, Welsh and Northern Irish MPs can vote on laws affecting only England, while English MPs cannot vote on devolved matters.",
+   "everyday": "Like a flatmate voting on your bedroom décor while you get no say over theirs.",
+   "work": "English votes for English laws was the Commons' attempt to answer the West Lothian question.",
+   "synonyms": [
+    "English question"
+   ],
+   "antonyms": [],
+   "gap": "Devolution left the ___ unresolved at Westminster.",
+   "answer": "West Lothian question",
+   "plain": "Why should Scottish MPs vote on English-only laws when English MPs can't vote on Scottish ones?",
+   "model": "That is the West Lothian question.",
+   "id": "west-lothian-question",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "pejorative",
+   "pos": "adj",
+   "ipa": "/pɪˈdʒɒr.ə.tɪv/",
+   "level": "basic",
+   "tag": "exam",
+   "meaning": "Expressing contempt or disapproval.",
+   "everyday": "\"Nerd\" used to be purely pejorative.",
+   "work": "Calling the team \"the cost centre\" felt pejorative.",
+   "synonyms": [
+    "derogatory",
+    "disparaging"
+   ],
+   "antonyms": [
+    "complimentary",
+    "approving"
+   ],
+   "gap": "He used \"bureaucrat\" in a ___ sense.",
+   "answer": "pejorative",
+   "plain": "The word is meant as an insult.",
+   "model": "The word is pejorative.",
+   "id": "pejorative",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "Coase theorem",
+   "pos": "n",
+   "ipa": "/ˈkəʊs ˌθɪə.rəm/",
+   "level": "intermediate",
+   "tag": "econ",
+   "meaning": "The idea that if property rights are clear and bargaining is cheap, parties will negotiate an efficient fix to an externality whoever holds the rights.",
+   "everyday": "Like neighbours settling a noisy-dog dispute with a payment, whoever technically has the right.",
+   "work": "The Coase theorem breaks down when thousands of residents face one polluter.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "According to the ___, clear rights and cheap bargaining resolve externalities privately.",
+   "answer": "Coase theorem",
+   "plain": "If rights are clear and negotiating is cheap, people will sort out the problem efficiently themselves.",
+   "model": "The Coase theorem says they'll bargain to an efficient outcome.",
+   "id": "coase-theorem",
+   "added": "2026-11-09"
+  },
+  {
+   "word": "gamma squeeze",
+   "pos": "n",
+   "ipa": "/ˈɡæm.ə ˌskwiːz/",
+   "level": "intermediate",
+   "tag": "markets",
+   "meaning": "A rally fuelled by options dealers buying shares to hedge as heavy call buying pushes the price up, which forces yet more hedging.",
+   "everyday": "Like a crowd surging forward, so the people at the front step forward too, which makes the crowd surge harder.",
+   "work": "Retail call buying set off a gamma squeeze in the meme stock.",
+   "synonyms": [],
+   "antonyms": [],
+   "gap": "Dealers buying stock to hedge their calls triggered a ___.",
+   "answer": "gamma squeeze",
+   "plain": "Dealers had to keep buying shares to hedge the calls they sold, which pushed the price higher still.",
+   "model": "It was a gamma squeeze.",
+   "id": "gamma-squeeze",
+   "added": "2026-11-09"
+  }
+ ]
+}
